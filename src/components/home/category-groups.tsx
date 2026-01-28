@@ -47,6 +47,20 @@ const CATEGORY_GROUPS: CategoryGroup[] = [
         description: "うるうる・えーん・大泣きまで。気持ちに合う泣き顔文字をコピペ。",
       },
       {
+        href: "/kimoi-kaomoji",
+        label: "キモい",
+        sample: "(ಠ_ಠ)",
+        description:
+          "気持ち悪い・ドン引き・ゾワゾワ（ホラー）まで。キモい顔文字をまとめてコピペ。",
+      },
+      {
+        href: "/iphone-kaomoji",
+        label: "iPhone",
+        sample: "(^_^)",
+        description:
+          "iPhoneでコピペしやすい顔文字まとめ。LINE/iMessage/SNSですぐ使える定番中心。",
+      },
+      {
         href: "/yumekawa-kaomoji",
         label: "ゆめかわ",
         sample: "꒰⑅•ᴗ•⑅꒱",
