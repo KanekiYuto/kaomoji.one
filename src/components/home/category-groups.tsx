@@ -35,6 +35,12 @@ const CATEGORY_GROUPS: CategoryGroup[] = [
         description: "もこもこ・動物・ハート系など、ふわっと可愛い顔文字まとめ。",
       },
       {
+        href: "/kawaii-kaomoji",
+        label: "可愛い",
+        sample: "(｡♥‿♥｡)",
+        description: "可愛い 顔 文字（kawaii）をまとめてコピペ。ハート・動物・照れ顔など。",
+      },
+      {
         href: "/cry-kaomoji",
         label: "泣く",
         sample: "(ಥ﹏ಥ)",
