@@ -59,12 +59,12 @@ export type HomeCtaContent = {
 };
 
 export const homeHeroContent: HomeHeroContent = {
-  title: "Kaomoji",
+  title: "顔文字（Kaomoji）",
   description:
     "カテゴリから顔文字ページへ。かわいい・泣くなどの定番テーマを、すぐに見つけて使えます。",
   primaryCta: { href: "#categories", label: "カテゴリから探す" },
   secondaryCta: { href: "/cute-kaomoji", label: "かわいい顔文字を見る" },
-  badges: ["ワンクリックでコピー", "カテゴリ + 検索", "モバイル対応"],
+  badges: ["顔文字をワンクリックでコピー", "カテゴリ + 検索", "モバイル対応"],
   sample: {
     title: "まずはひとつ：",
     hint: "一覧の顔文字をクリックするとコピーできます。",
@@ -77,7 +77,7 @@ export const homeHeroContent: HomeHeroContent = {
 };
 
 export const homeFeaturesContent: HomeFeaturesContent = {
-  heading: "Kaomoji の特徴",
+  heading: "顔文字（Kaomoji）の特徴",
   subheading: "軽くて直感的。伝えたい気持ちを、もっと素早く。",
   items: [
     {
@@ -99,7 +99,7 @@ export const homeFeaturesContent: HomeFeaturesContent = {
 };
 
 export const homeHowToUseContent: HomeHowToUseContent = {
-  heading: "使い方",
+  heading: "顔文字（Kaomoji）の使い方",
   subheading: "4ステップ：カテゴリ選択 → クリックでコピー → 貼り付けて送信。",
   steps: [
     {
@@ -197,7 +197,7 @@ export const homeCtaContent: HomeCtaContent = {
 };
 
 export const homeKaomojiWhyContent: KaomojiWhyProps = {
-  heading: "なぜ Kaomoji？",
+  heading: "なぜ 顔文字（Kaomoji）？",
   subheading:
     "文字だけより温度があり、スタンプより軽い。コピーするだけで、どんな会話でも気持ちが伝わります。",
   guideHeading: "シーン別おすすめ",

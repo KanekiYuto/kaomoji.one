@@ -161,6 +161,13 @@ export function CategoryGroups() {
 
   return (
     <div className="space-y-8">
+      <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+        顔文字一覧
+      </h2>
+      <p className="text-sm leading-relaxed text-muted-foreground md:text-base">
+        かわいい顔文字・泣く顔文字・ふわふわ/もふもふ・夢かわなど、カテゴリ別に顔文字を探してコピペできます。
+      </p>
+
       <div className="space-y-4">
         <div className="relative">
           <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />

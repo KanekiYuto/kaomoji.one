@@ -20,9 +20,9 @@ import {
 import { withCanonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "kaomoji｜かわいい顔文字・泣く顔文字をワンクリックでコピー",
+  title: "顔文字一覧｜かわいい顔文字・泣く顔文字をワンクリックでコピー",
   description:
-    "かわいい・泣くなどのテーマ別に顔文字（Kaomoji）を探して、クリックでコピー。LINE や X（Twitter）など、いつものアプリにそのまま貼り付けて使えます。",
+    "顔文字（カオモジ/Kaomoji）をテーマ別に探してワンクリックでコピー。かわいい・泣く・ふわふわ・もふもふ・夢かわなど、SNS（LINE/X（Twitter）/Instagram/Discord）にそのままコピペで使えます。",
   ...withCanonical("/"),
 };
 
