@@ -54,6 +54,8 @@ export default function Home() {
         <div id="cta">
           <HomeCtaSection content={homeCtaContent} />
         </div>
+
+        <a href="https://navs.site" title="AI Sites | 2026">AI Nav Site</a>
       </div>
     </div>
   );
