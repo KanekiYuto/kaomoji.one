@@ -136,7 +136,7 @@ export function KaomojiExplorer({
                     >
                       <CardContent className="flex items-center gap-2 p-3">
                         <span
-                          className="font-mono text-base leading-tight break-all md:text-lg"
+                          className="font-mono text-base leading-tight whitespace-pre-wrap break-all md:text-lg"
                           title={item.kaomoji}
                         >
                           {item.kaomoji}

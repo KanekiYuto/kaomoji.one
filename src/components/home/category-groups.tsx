@@ -40,6 +40,13 @@ const CATEGORY_GROUPS: CategoryGroup[] = [
         sample: "(ಥ﹏ಥ)",
         description: "うるうる・えーん・大泣きまで。気持ちに合う泣き顔文字をコピペ。",
       },
+      {
+        href: "/yumekawa-kaomoji",
+        label: "ゆめかわ",
+        sample: "꒰⑅•ᴗ•⑅꒱",
+        description:
+          "夢かわいい・パステル・天使・キラキラ。ふんわり可愛いゆめかわ顔文字をまとめてコピペ。",
+      },
     ],
   },
 ];
