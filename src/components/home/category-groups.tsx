@@ -47,6 +47,27 @@ const CATEGORY_GROUPS: CategoryGroup[] = [
         description:
           "夢かわいい・パステル・天使・キラキラ。ふんわり可愛いゆめかわ顔文字をまとめてコピペ。",
       },
+      {
+        href: "/fuwafuwa-kaomoji",
+        label: "ふわふわ",
+        sample: "( ⁎ᵕᴗᵕ⁎ )",
+        description:
+          "癒し・優しさ・ほんわか。ふわふわ系の顔文字をまとめてコピペ。",
+      },
+      {
+        href: "/mofumofu-kaomoji",
+        label: "もふもふ",
+        sample: "(ﾉ)•ω•(ヾ)",
+        description:
+          "毛並み・ぬいぐるみ感をふんわり表現。もふもふ・もこもこ系の顔文字をまとめてコピペ。",
+      },
+      {
+        href: "/biyoon-kaomoji",
+        label: "びよーん",
+        sample: "o<(´ω`*)>o",
+        description:
+          "伸ばす・引っ張る・もちもち。びよーん系の動作顔文字をまとめてコピペ。",
+      },
     ],
   },
 ];
@@ -83,9 +104,9 @@ function CategoryGroupSection({ title, icon, items, defaultOpen }: CategoryGroup
       {open ? (
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {items.map((item) => (
-            <Link key={item.href} href={item.href} className="block">
-              <Card className="group gap-0 border-border py-0 shadow-none transition-colors hover:border-primary/30 hover:bg-accent/30">
-                <CardContent className="p-4">
+            <Link key={item.href} href={item.href} className="block h-full">
+              <Card className="group h-full gap-0 border-border py-0 shadow-none transition-colors hover:border-primary/30 hover:bg-accent/30">
+                <CardContent className="flex h-full flex-col p-4">
                   <div className="flex items-center gap-3">
                     <span className="text-2xl font-mono">{item.sample}</span>
                     <span className="font-medium text-foreground group-hover:text-primary">
@@ -93,7 +114,7 @@ function CategoryGroupSection({ title, icon, items, defaultOpen }: CategoryGroup
                     </span>
                     <ChevronRight className="ml-auto size-4 text-muted-foreground transition-colors group-hover:text-primary" />
                   </div>
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">
                     {item.description}
                   </p>
                 </CardContent>
