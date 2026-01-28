@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 import { CategoryGroups } from "@/components/home/category-groups";
 import { CultureHistorySection } from "@/components/home/culture-history-section";
@@ -54,10 +53,6 @@ export default function Home() {
         </div>
         <div id="cta">
           <HomeCtaSection content={homeCtaContent} />
-        </div>
-
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-          {/* 放外部链接导航的 */}
         </div>
       </div>
     </div>
