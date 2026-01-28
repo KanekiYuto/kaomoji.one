@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import { CategoryGroups } from "@/components/home/category-groups";
 import { CultureHistorySection } from "@/components/home/culture-history-section";
@@ -55,7 +56,9 @@ export default function Home() {
           <HomeCtaSection content={homeCtaContent} />
         </div>
 
-        <a href="https://navs.site" title="AI Sites | 2026">AI Nav Site</a>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+          {/* 放外部链接导航的 */}
+        </div>
       </div>
     </div>
   );

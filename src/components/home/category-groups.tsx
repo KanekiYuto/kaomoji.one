@@ -185,7 +185,7 @@ export function CategoryGroups() {
         顔文字一覧
       </h2>
       <p className="text-sm leading-relaxed text-muted-foreground md:text-base">
-        かわいい顔文字・泣く顔文字・ふわふわ/もふもふ・夢かわなど、カテゴリ別に顔文字を探してコピペできます。
+        絵文字の代わりに使える顔文字を、カテゴリ別に探してコピペできます。かわいい顔文字・泣く顔文字・ふわふわ/もふもふ・夢かわなど。
       </p>
 
       <div className="space-y-4">

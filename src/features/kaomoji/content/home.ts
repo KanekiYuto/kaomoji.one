@@ -61,7 +61,7 @@ export type HomeCtaContent = {
 export const homeHeroContent: HomeHeroContent = {
   title: "顔文字（Kaomoji）",
   description:
-    "カテゴリから顔文字ページへ。かわいい・泣くなどの定番テーマを、すぐに見つけて使えます。",
+    "カテゴリから顔文字ページへ。絵文字の代わりに、コピペで使える顔文字を、かわいい・泣くなどの定番テーマからすぐに見つけられます。",
   primaryCta: { href: "#categories", label: "カテゴリから探す" },
   secondaryCta: { href: "/cute-kaomoji", label: "かわいい顔文字を見る" },
   badges: ["顔文字をワンクリックでコピー", "カテゴリ + 検索", "モバイル対応"],

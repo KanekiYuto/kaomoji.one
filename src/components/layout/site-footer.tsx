@@ -7,6 +7,7 @@ const footerSections = [
       { label: "ホーム", href: "/" },
       { label: "かわいい", href: "/cute-kaomoji" },
       { label: "泣く", href: "/cry-kaomoji" },
+      { label: "バックリンク", href: "/back-links" },
     ],
   },
   {
