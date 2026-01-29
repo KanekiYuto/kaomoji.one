@@ -2,7 +2,7 @@ export const BACK_LINKS_LAST_UPDATED = "2026-01-29";
 
 export const BACK_LINK_URLS: string[] = [
   "https://beautys.website/?p=294",
-  "https://www.eventdocks.com/otchego-my-ljubim-chuvstvo-mnogoe-dostizhimo-13/",
+  // "https://www.eventdocks.com/otchego-my-ljubim-chuvstvo-mnogoe-dostizhimo-13/", // disabled (spam)
   "http://ozyque.com/hello-world/",
   "https://www.myeconguru.lk/hello-world/",
   "https://www.ccimachining.com/hello-world/",
@@ -21,23 +21,23 @@ export const BACK_LINK_URLS: string[] = [
   "https://www.natureguidetraining.com/216a5353/",
   "https://equestrian.eastkingdom.org/2024/05/16/new-website/",
   "https://wp-kama.ru/function/wp_register_script_module",
-  "https://batergybaterias.com/2021/05/03/hello-world/",
+  // "https://batergybaterias.com/2021/05/03/hello-world/", // disabled (spam)
   "https://www.safetyinengineering.com/2022/02/11/hello-world/",
-  "https://www.banshkhalitimes.com/%e0%a6%b8%e0%a7%87%e0%a6%a4%e0%a7%81-%e0%a6%a8%e0%a6%be-%e0%a6%a5%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%af%e0%a6%bc-%e0%a7%a9%e0%a7%ab-%e0%a6%ac%e0%a6%9b%e0%a6%b0-%e0%a6%a7%e0%a6%b0%e0%a7%87-%e0%a6%ad/",
+  // "https://www.banshkhalitimes.com/%e0%a6%b8%e0%a7%87%e0%a6%a4%e0%a7%81-%e0%a6%a8%e0%a6%be-%e0%a6%a5%e0%a6%be%e0%a6%95%e0%a6%be%e0%a6%af%e0%a6%bc-%e0%a7%a9%e0%a7%ab-%e0%a6%ac%e0%a6%9b%e0%a6%b0-%e0%a6%a7%e0%a6%b0%e0%a7%87-%e0%a6%ad/", // disabled (spam)
   "https://www.astraluxsolution.com/astra-lux-solutions-bridging-the-gap-for-sustainable-growth/",
-  "https://pincus.bigny.com/%d0%b1%d0%be%d1%80%d0%b8%d1%81-%d0%bf%d0%b8%d0%bd%d0%ba%d1%83%d1%81-pinkus-news/",
+  // "https://pincus.bigny.com/%d0%b1%d0%be%d1%80%d0%b8%d1%81-%d0%bf%d0%b8%d0%bd%d0%ba%d1%83%d1%81-pinkus-news/", // disabled (spam)
   "https://www.hotelrawalkot.com/2019/05/29/what-tripadvisor-says-about-jaisalmer/",
   "https://hanaanbalala.com/islamic-finance-and-banking-ala-m-pesa/",
   "https://www.ampenan.com/commercial-land-resort-area-lombok/",
   "https://odysseytransfers.com/taxi-strike-in-athens-on-december-2-3-2025/",
   "http://medellinfurnishedrentals.com/hello-world/",
   "https://blackmanblackwoman.com/as-jay-z-sells-nets-losing-minor-owner-big-name-yahoo-sports/",
-  "https://areteonlinelearning.com/tu/",
-  "http://www.feedmedearly.com/2020/09/27/surrender/",
+  // "https://areteonlinelearning.com/tu/", // disabled (spam)
+  // "http://www.feedmedearly.com/2020/09/27/surrender/", // disabled (spam)
   "https://test.k12leaders.com/posts/mindshifting-launch/",
   "https://scheduler101.com/2025/11/23/hello-world/",
   "https://arteuk.com/to-shop-is-to-walmart-kudos-to-iya-eleko/",
-  "https://yb-nuisibles.com/1433-2/",
+  // "https://yb-nuisibles.com/1433-2/", // disabled (spam)
   "https://rantraibaar.in/training-camp-organized-at-herbal-research-institute/",
   "https://1v.com.br/index.php/2024/03/05/ola-mundo/",
   "https://mediasamwad.com/the-journey-from-gorikund-to-kedarnath-will-be-even-easier-know/",
@@ -52,10 +52,10 @@ export const BACK_LINK_URLS: string[] = [
   "https://ruaainfinite.com/stop-wasting-your-time-and-money-at-centers-that-dont-deliver/",
   "https://spectrumperforming.com/spinbetter-casino-und-die-nutzlichsten-sportwetten-online/",
   "https://aravinddecor.com/best-curtains-available-in-coimbatore/",
-  "https://pioneersevents.com/2025/03/06/hello-world/",
+  // "https://pioneersevents.com/2025/03/06/hello-world/", // disabled (spam)
   "https://blogs.ntu.edu.sg/ps5888-2025-g01/2018/05/25/hello-world/",
   "https://stackoverflow.com/questions/77328751/in-a-hello-world-flask-application-using-https-instead-of-http-introduces-1s-ov/79878126#79878126",
-  "https://haarkunsten.dk/hello-world",
+  // "https://haarkunsten.dk/hello-world", // disabled (spam)
   "https://www.linkedin.com/in/%E6%8C%BD-%E5%8D%97-a022033a9/recent-activity/all/",
   "https://www.wol.org/2024/11/01/hello-world/",
   "https://blog.nus.edu.sg/doyouloveourearth/2019/05/15/hello-world/",
