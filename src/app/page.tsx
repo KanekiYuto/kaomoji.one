@@ -54,6 +54,10 @@ export default function Home() {
         <div id="cta">
           <HomeCtaSection content={homeCtaContent} />
         </div>
+
+        <a href="https://startupfa.me/s/kaomoji?utm_source=kaomoji.one" target="_blank">
+          <img src="https://startupfa.me/badges/featured-badge-small.webp" alt="kaomoji - Featured on Startup Fame" width="224" height="36" />
+        </a>
       </div>
     </div>
   );
