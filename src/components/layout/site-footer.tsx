@@ -8,6 +8,7 @@ const footerSections = [
       { label: "かわいい", href: "/cute-kaomoji" },
       { label: "泣く", href: "/cry-kaomoji" },
       { label: "ドヤ顔", href: "/doya-kaomoji" },
+      { label: "バックリンク", href: "/back-links" },
     ],
   },
   {
