@@ -25,6 +25,12 @@ export const KAOMOJI_CATEGORIES: KaomojiCategoryMeta[] = [
     description: "うるうる・えーん・大泣きまで。気持ちに合う泣き顔文字をコピペ。",
   },
   {
+    href: "/gougoku-kaomoji",
+    label: "号泣",
+    sample: "(༎ຶ⌑༎ຶ)",
+    description: "激しく泣く・大泣き表情。号泣顔文字をまとめてコピペ。",
+  },
+  {
     href: "/doya-kaomoji",
     label: "ドヤ顔",
     sample: "(｀・ω・´)✧",
@@ -71,6 +77,7 @@ export const KAOMOJI_CATEGORIES: KaomojiCategoryMeta[] = [
 const POPULAR: string[] = [
   "/cute-kaomoji",
   "/cry-kaomoji",
+  "/gougoku-kaomoji",
   "/doya-kaomoji",
   "/kawaii-kaomoji",
   "/iphone-kaomoji",
@@ -95,10 +102,19 @@ const RELATED_BY_ROUTE: Record<string, string[]> = {
     "/doya-kaomoji",
   ],
   "/cry-kaomoji": [
+    "/gougoku-kaomoji",
     "/fuwafuwa-kaomoji",
     "/mofumofu-kaomoji",
     "/cute-kaomoji",
     "/yumekawa-kaomoji",
+    "/kawaii-kaomoji",
+    "/iphone-kaomoji",
+  ],
+  "/gougoku-kaomoji": [
+    "/cry-kaomoji",
+    "/fuwafuwa-kaomoji",
+    "/mofumofu-kaomoji",
+    "/cute-kaomoji",
     "/kawaii-kaomoji",
     "/iphone-kaomoji",
   ],
@@ -107,12 +123,14 @@ const RELATED_BY_ROUTE: Record<string, string[]> = {
     "/cute-kaomoji",
     "/kawaii-kaomoji",
     "/cry-kaomoji",
+    "/gougoku-kaomoji",
     "/iphone-kaomoji",
     "/biyoon-kaomoji",
   ],
   "/kimoi-kaomoji": [
     "/doya-kaomoji",
     "/cry-kaomoji",
+    "/gougoku-kaomoji",
     "/iphone-kaomoji",
     "/cute-kaomoji",
     "/kawaii-kaomoji",
@@ -121,6 +139,7 @@ const RELATED_BY_ROUTE: Record<string, string[]> = {
   "/iphone-kaomoji": [
     "/cute-kaomoji",
     "/cry-kaomoji",
+    "/gougoku-kaomoji",
     "/doya-kaomoji",
     "/kawaii-kaomoji",
     "/yumekawa-kaomoji",

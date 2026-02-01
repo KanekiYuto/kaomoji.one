@@ -47,6 +47,12 @@ const CATEGORY_GROUPS: CategoryGroup[] = [
         description: "うるうる・えーん・大泣きまで。気持ちに合う泣き顔文字をコピペ。",
       },
       {
+        href: "/gougoku-kaomoji",
+        label: "号泣",
+        sample: "(༎ຶ⌑༎ຶ)",
+        description: "激しく泣く・大泣き表情。絵文字付き・かわいい号泣・シンプル系をコピペ。",
+      },
+      {
         href: "/doya-kaomoji",
         label: "ドヤ顔",
         sample: "(｀・ω・´)✧",
