@@ -17,6 +17,14 @@ import {
   homeHowToUseContent,
   homeKaomojiWhyContent,
 } from "@/features/kaomoji/content/home";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 import { withCanonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -55,9 +63,36 @@ export default function Home() {
           <HomeCtaSection content={homeCtaContent} />
         </div>
 
-        <a href="https://startupfa.me/s/kaomoji?utm_source=kaomoji.one" target="_blank">
-          <img src="https://startupfa.me/badges/featured-badge-small.webp" alt="kaomoji - Featured on Startup Fame" width="224" height="36" />
-        </a>
+        <div className="w-full">
+          <div className="w-full rounded-xl border border-border">
+            <Table>
+              <TableHeader>
+                <TableRow>
+                  <TableHead>バッジ</TableHead>
+                </TableRow>
+              </TableHeader>
+              <TableBody>
+                <TableRow>
+                  <TableCell>
+                    <a
+                      href="https://startupfa.me/s/kaomoji?utm_source=kaomoji.one"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex"
+                    >
+                      <img
+                        src="https://startupfa.me/badges/featured-badge-small.webp"
+                        alt="kaomoji - Featured on Startup Fame"
+                        width={224}
+                        height={36}
+                      />
+                    </a>
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </div>
+        </div>
       </div>
     </div>
   );
