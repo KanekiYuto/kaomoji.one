@@ -89,6 +89,13 @@ export default function Home() {
                     </a>
                   </TableCell>
                 </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <a href="https://turbo0.com/item/kaomoji" target="_blank" rel="noopener noreferrer">
+                      <img src="https://img.turbo0.com/badge-listed-light.svg" alt="Listed on Turbo0" width={224} height={36} />
+                    </a>
+                  </TableCell>
+                </TableRow>
               </TableBody>
             </Table>
           </div>

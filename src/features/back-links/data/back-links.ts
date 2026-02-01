@@ -1,4 +1,4 @@
-export const BACK_LINKS_LAST_UPDATED = "2026-01-30";
+export const BACK_LINKS_LAST_UPDATED = "2026-02-01";
 
 export const BACK_LINK_URLS: string[] = [
   "https://beautys.website/?p=294",
@@ -192,4 +192,29 @@ export const BACK_LINK_URLS: string[] = [
   "https://www.julienhaye.com/post/becoming-gay-dads",
   "https://www.joeichi.com/post/%E7%B5%B5%E6%9C%AC%E3%81%8C%E3%81%B2%E3%82%89%E3%81%8F%E5%BF%83%E7%90%86%E8%87%A8%E5%BA%8A%E3%81%AE%E4%B8%96%E7%95%8C",
   "https://www.jmcarr.com/post/how-to-write-a-gripping-story-1",
+  "https://www.cubdomain.com/site/kaomoji.one",
+  "https://www.thesocialworkgraduate.com/post/lgbtiqa",
+  "https://www.paddingtonmedical.com.au/single-post/2014/12/22/now-offering-services-to-international-students",
+  "https://www.firstmed-services.de/post/digital-detox-bewusster-umgang-mit-technologie",
+  "https://www.giid.biz/post/%E4%BA%BA%E3%81%AB%E6%AD%B4%E5%8F%B2%E3%81%82%E3%82%8A%E3%80%82",
+  "https://www.hannahwilner.com/post/top-5-personality-assessments-for-business",
+  "https://www.headofthehive.co.uk/post/fun-beach-games-and-activities-for-the-family",
+  "https://www.heartful.biz/post/%E3%81%8A%E3%81%B2%E3%81%95%E3%81%BE%E3%81%A0%E3%82%88%E3%82%8A",
+  "https://www.hedgehogcounselling.co.uk/post/is-queer-a-dirty-word-the-use-of-language-within-the-lgbtq-community-and-it-s-impact",
+  "https://www.hyogo-cpp.com/post/%E4%B8%80%E8%88%AC%E7%A4%BE%E5%9B%A3%E6%B3%95%E4%BA%BA-%E5%85%B5%E5%BA%AB%E7%9C%8C%E5%85%AC%E8%AA%8D%E5%BF%83%E7%90%86%E5%B8%AB%E4%BC%9A-%E4%B8%BB%E5%82%AC-%E7%A6%8F%E7%A5%89%E3%83%BB%E5%8F%B8%E6%B3%95%E9%A0%98%E5%9F%9F%E5%B0%82%E9%96%80%E7%A0%94%E4%BF%AE%E3%80%8E%E3%82%B2%E3%83%BC%E3%83%A0%E4%BE%9D%E5%AD%98%E3%81%AE%E7%90%86%E8%A7%A3%E3%81%A8%E6%94%AF%E6%8F%B4%E3%80%8F",
+  "https://www.icav.ca/post/8th-grade-spring-test-results-now-available-1",
+  "https://www.inthelittlewood.com/post/the-survivalists-review",
+  "https://www.jhrcounselling.co.uk/post/sexual-exploration-questionnaire-relationship-counselling-yorkshire",
+  "https://www.stephenshigematsu.com/post/kintsugi",
+  "https://www.youthempowermentsource.org/post/freedom-to-be",
+  "https://www.toreally.live/post/from-shame-to-security",
+  "https://www.solentsky.org/post/secret-files-the-spitfire-floatplanes",
+  "http://www.rs-inox.com/index.php?post/2020/06/11/T.TOP",
+  "https://dongiannatti.substack.com/p/the-rise-of-authenticity-in-photography/comments",
+  "https://stackoverflow.com/questions/11817464/how-can-i-removed-powered-by-wordpress-link-in-wp-login-php-without-editing-core",
+  "https://lit.link/en/yutokanekikanekiyuto",
+  "https://make.rs/project/5108-kaomoji",
+  "https://make.rs/@KanekiYuto/projects",
+  "https://jobhub.jp/co_workers/kaneki_yuto_404",
+  "https://haveagood.holiday/users/484694",
 ];
