@@ -26,7 +26,7 @@ import { withCanonical } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "ゆめかわ顔文字一覧（Kaomoji）｜夢かわいい・パステル・天使・キラキラ",
   description:
-    "ゆめかわ顔文字をカテゴリ別にまとめてコピペ。検索＆ワンクリックコピー対応で、SNSやメッセージにすぐ使えます。",
+    "ゆめかわ顔文字（Kaomoji）を厳選して掲載。パステル・天使・キラキラなど、夢かわいい表情がすぐ見つかります。検索＆ワンクリックでコピーして、LINE/X（Twitter）/Instagram/Discordにそのままコピペ。プロフィールや一言にも便利。登録不要で無料。スマホでもOK。",
   ...withCanonical("/yumekawa-kaomoji"),
 };
 

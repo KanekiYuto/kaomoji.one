@@ -26,7 +26,7 @@ import { withCanonical } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "号泣顔文字一覧（Kaomoji）｜激しく泣く・大泣き表情【コピペ簡単】",
   description:
-    "号泣顔文字（ごうきゅう かおもじ）は、激しく泣く様子や深い悲しみ、強い感動を表現する顔文字です。絵文字付き・かわいい号泣・シンプル系をまとめてコピペできます。",
+    "号泣顔文字（Kaomoji）をまとめて掲載。激しく泣く・大泣き・感動の表情を、絵文字付き／かわいい／シンプル系まで収録。検索＆ワンクリックでコピーして、LINE/X（Twitter）/Instagram/Discordにそのままコピペ。悲しい時も感動した時も使える。登録不要で無料。スマホでもOK。",
   ...withCanonical("/gougoku-kaomoji"),
 };
 
@@ -69,4 +69,3 @@ export default function GougokuKaomojiPage() {
     </div>
   );
 }
-

@@ -26,7 +26,7 @@ import { withCanonical } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "可愛い 顔文字一覧（Kaomoji）｜kawaii系をコピペで簡単",
   description:
-    "可愛い 顔 文字（kawaii）をまとめてコピペ。ハート・動物・照れ顔など、気分に合う可愛い顔文字（Kaomoji）がすぐ見つかります。",
+    "可愛い 顔文字（kawaii/Kaomoji）をまとめて掲載。ハート・動物・照れ顔など、気分に合う可愛い表情がすぐ見つかります。検索＆ワンクリックでコピーして、LINE/X（Twitter）/Instagram/Discordにそのままコピペ。登録不要で無料。スマホでもOK。すぐ使えます。",
   ...withCanonical("/kawaii-kaomoji"),
 };
 

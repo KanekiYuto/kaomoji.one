@@ -26,7 +26,7 @@ import { withCanonical } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "キモい顔文字一覧（Kaomoji）｜気持ち悪い・ドン引き・ホラー系をコピペ",
   description:
-    "キモい顔文字（気持ち悪い顔文字）をカテゴリ別にまとめてコピペ。ドン引き・ジト目・ゾワゾワ（ホラー）など、“うわ…”のリアクションがすぐ使えます。",
+    "キモい顔文字（気持ち悪い顔文字/Kaomoji）をまとめて掲載。ドン引き・ジト目・ゾワゾワ（ホラー）など、うわ…のリアクションがすぐ使えます。検索＆ワンクリックでコピーして、LINE/X（Twitter）/Instagram/Discordにそのままコピペ。登録不要で無料。スマホでもOK。",
   ...withCanonical("/kimoi-kaomoji"),
 };
 

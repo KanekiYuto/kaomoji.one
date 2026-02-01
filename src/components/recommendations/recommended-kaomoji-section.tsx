@@ -51,8 +51,8 @@ export function RecommendedKaomojiSection({
       </div>
 
       <div className="mx-auto grid max-w-4xl gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {items.map((item) => (
-          <Link key={item.href} href={item.href} className="block h-full">
+        {items.map((item, index) => (
+          <Link key={index} href={item.href} className="block h-full">
             <Card className="group h-full gap-0 border-border py-0 shadow-none transition-colors hover:border-primary/30 hover:bg-accent/30">
               <CardContent className="flex h-full flex-col p-4">
                 <div className="flex items-center gap-3">
