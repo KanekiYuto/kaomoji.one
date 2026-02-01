@@ -5,6 +5,7 @@ import { KaomojiFaq } from "@/features/kaomoji/sections/faq";
 import { KaomojiHero } from "@/features/kaomoji/sections/hero";
 import { KaomojiWhat } from "@/features/kaomoji/sections/what";
 import { KaomojiWhy } from "@/features/kaomoji/sections/why";
+import { RecommendedKaomojiSection } from "@/components/recommendations/recommended-kaomoji-section";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -63,8 +64,8 @@ export default function FuwafuwaKaomojiPage() {
         <KaomojiWhat {...fuwafuwaKaomojiWhatContent} />
         <KaomojiWhy {...fuwafuwaKaomojiWhyContent} />
         <KaomojiFaq {...fuwafuwaKaomojiFaqContent} />
+        <RecommendedKaomojiSection currentPath="/fuwafuwa-kaomoji" />
       </div>
     </div>
   );
 }
-

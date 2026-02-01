@@ -14,26 +14,27 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { cryKaomojiGroups } from "@/features/kaomoji/data/cry-kaomoji";
+import { doyaKaomojiGroups } from "@/features/kaomoji/data/doya-kaomoji";
 import {
-  cryKaomojiFaqContent,
-  cryKaomojiHeroContent,
-  cryKaomojiWhatContent,
-  cryKaomojiWhyContent,
-} from "@/features/kaomoji/content/cry-kaomoji";
+  doyaKaomojiFaqContent,
+  doyaKaomojiHeroContent,
+  doyaKaomojiWhatContent,
+  doyaKaomojiWhyContent,
+} from "@/features/kaomoji/content/doya-kaomoji";
 import { withCanonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "泣く顔文字一覧（Kaomoji）｜かわいい泣き顔・うるうる・大泣きをコピペ",
+  title:
+    "ドヤ顔 顔文字一覧（Kaomoji）｜得意げ・キメ顔で自信をアピール【コピペ簡単】",
   description:
-    "泣く顔文字（Kaomoji）をまとめてコピペ。かわいい泣き顔から、うるうる・えーん・しくしく・大泣きまで、気持ちに合う表情がすぐ見つかります。",
-  ...withCanonical("/cry-kaomoji"),
+    "ドヤ顔・どや・どやぁ・ドヤァなど、自信満々で得意げな顔文字をまとめてコピペ。かわいいドヤ顔からキリッとした決め顔まで、成果を出した時や自慢したい時にぴったり！",
+  ...withCanonical("/doya-kaomoji"),
 };
 
-export default function CryKaomojiPage() {
+export default function DoyaKaomojiPage() {
   return (
     <div>
-      <KaomojiHero {...cryKaomojiHeroContent} />
+      <KaomojiHero {...doyaKaomojiHeroContent} />
 
       <div
         id="list"
@@ -46,16 +47,20 @@ export default function CryKaomojiPage() {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>泣く顔文字</BreadcrumbPage>
+              <BreadcrumbPage>ドヤ顔顔文字</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
 
-        <KaomojiExplorer groups={cryKaomojiGroups} />
-        <KaomojiWhat {...cryKaomojiWhatContent} />
-        <KaomojiWhy {...cryKaomojiWhyContent} />
-        <KaomojiFaq {...cryKaomojiFaqContent} />
-        <RecommendedKaomojiSection currentPath="/cry-kaomoji" />
+        <KaomojiExplorer
+          groups={doyaKaomojiGroups}
+          searchPlaceholder="顔文字を検索..."
+          allLabel="すべてのカテゴリ"
+        />
+        <KaomojiWhat {...doyaKaomojiWhatContent} />
+        <KaomojiWhy {...doyaKaomojiWhyContent} />
+        <KaomojiFaq {...doyaKaomojiFaqContent} />
+        <RecommendedKaomojiSection currentPath="/doya-kaomoji" />
       </div>
     </div>
   );

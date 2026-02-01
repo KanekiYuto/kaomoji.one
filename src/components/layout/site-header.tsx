@@ -21,6 +21,7 @@ const navItems = [
   { label: "ホーム", href: "/" },
   { label: "かわいい", href: "/cute-kaomoji" },
   { label: "泣く", href: "/cry-kaomoji" },
+  { label: "ドヤ顔", href: "/doya-kaomoji" },
 ] as const;
 
 function Logo() {

@@ -5,6 +5,7 @@ import { KaomojiFaq } from "@/features/kaomoji/sections/faq";
 import { KaomojiHero } from "@/features/kaomoji/sections/hero";
 import { KaomojiWhat } from "@/features/kaomoji/sections/what";
 import { KaomojiWhy } from "@/features/kaomoji/sections/why";
+import { RecommendedKaomojiSection } from "@/components/recommendations/recommended-kaomoji-section";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -54,6 +55,7 @@ export default function KawaiiKaomojiPage() {
         <KaomojiWhat {...kawaiiKaomojiWhatContent} />
         <KaomojiWhy {...kawaiiKaomojiWhyContent} />
         <KaomojiFaq {...kawaiiKaomojiFaqContent} />
+        <RecommendedKaomojiSection currentPath="/kawaii-kaomoji" />
       </div>
     </div>
   );
