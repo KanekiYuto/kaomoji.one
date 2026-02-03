@@ -1,4 +1,4 @@
-export const BACK_LINKS_LAST_UPDATED = "2026-02-01";
+export const BACK_LINKS_LAST_UPDATED = "2026-02-03";
 
 export const BACK_LINK_URLS: string[] = [
   "https://beautys.website/?p=294",
@@ -217,4 +217,10 @@ export const BACK_LINK_URLS: string[] = [
   "https://make.rs/@KanekiYuto/projects",
   "https://jobhub.jp/co_workers/kaneki_yuto_404",
   "https://haveagood.holiday/users/484694",
+  "https://www.techbang.com/posts/115835-computex-2024rog-zephyrus-g16-amd-tuf-gaming-a16-a14-ai?comment_page=2",
+  "https://video.assens.dk/digital-ansogning-af-ydelsemp4",
+  "https://www.stampstampede.org/society-stampers/groups/kaomoji-one/",
+  "https://ikerishop.com/hpgen/HPB/entries/32.html",
+  "https://chot.design/forums/other/1665088/",
+  "https://chot.design/members/kaomoji/",
 ];
