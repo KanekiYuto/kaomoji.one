@@ -165,4 +165,5 @@ export const BACK_LINK_URLS: string[] = [
   "https://chot.design/members/kaomoji/",
   "https://substack.com/profile/432793354-yuto-kaneki/note/c-209436231",
   "https://substack.com/@yutokaneki",
+  "https://pe.search.yahoo.com/search;_ylt=AwrOrvxFR4JpEwIAOkp7egx.;_ylc=X1MDMjExNDc0NzAwMwRfcgMyBGZyMgNzYi10b3AEZ3ByaWQDWTBWc1RjNmtSeHVRd2xmcGRndkFJQQRuX3JzbHQDMARuX3N1Z2cDMQRvcmlnaW4DcGUuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMTYEcXVlcnkDc2l0ZSUzQWthb21vamkub25lBHRfc3RtcAMxNzcwMTQ1NjA4?p=site%3Akaomoji.one&nojs=1&fr2=sb-top",
 ];
