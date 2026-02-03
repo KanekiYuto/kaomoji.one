@@ -10,14 +10,11 @@ import { cn } from "@/lib/utils";
 import {
   CATEGORY_GROUPS as CATEGORY_GROUPS_DATA,
   type KaomojiCategoryGroup,
-  type KaomojiCategoryLinkItem,
 } from "@/features/kaomoji/data/category-groups";
 
 type CategoryGroup = {
   icon: React.ReactNode;
 } & KaomojiCategoryGroup;
-
-type CategoryLinkItem = KaomojiCategoryLinkItem;
 
 const ICON_BY_TITLE: Record<string, React.ReactNode> = {
   感情表現: <Heart className="size-4" />,
