@@ -163,4 +163,6 @@ export const BACK_LINK_URLS: string[] = [
   "https://ikerishop.com/hpgen/HPB/entries/32.html",
   "https://chot.design/forums/other/1665088/",
   "https://chot.design/members/kaomoji/",
+  "https://substack.com/profile/432793354-yuto-kaneki/note/c-209436231",
+  "https://substack.com/@yutokaneki",
 ];
