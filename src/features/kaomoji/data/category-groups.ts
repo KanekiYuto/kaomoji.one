@@ -88,5 +88,24 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
       },
     ],
   },
+  {
+    title: "キャラクター系",
+    defaultOpen: true,
+    items: [
+      {
+        href: "/character-kaomoji",
+        label: "キャラクター系",
+        sample: "ฅ(^^ฅ)",
+        description:
+          "動物（うさぎ/くま）や特殊・装飾まで。キャラクター顔文字をまとめてコピペ。",
+      },
+      {
+        href: "/chiikawa-kaomoji",
+        label: "ちいかわ",
+        sample: "(՞ᵕ՞)",
+        description:
+          "ちいかわ風の顔文字まとめ。嬉しい・悲しい（わァ…）・愛などを検索してコピペ。",
+      },
+    ],
+  },
 ];
-

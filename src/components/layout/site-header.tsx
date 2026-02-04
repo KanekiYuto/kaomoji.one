@@ -23,6 +23,7 @@ const navItems = [
   { label: "泣く", href: "/cry-kaomoji" },
   { label: "号泣", href: "/gougoku-kaomoji" },
   { label: "ドヤ顔", href: "/doya-kaomoji" },
+  { label: "キャラクター系", href: "/character-kaomoji" },
 ] as const;
 
 function Logo() {
