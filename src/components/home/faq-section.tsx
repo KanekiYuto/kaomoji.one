@@ -1,4 +1,4 @@
-import type { HomeFaqContent } from "@/features/kaomoji/content/home";
+import type { HomeFaqContent } from "@/features/kaomoji/types";
 
 export function HomeFaqSection({ content }: { content: HomeFaqContent }) {
   return (

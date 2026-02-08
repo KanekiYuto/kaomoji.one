@@ -1,9 +1,19 @@
+import type { Metadata } from "next";
+
 import type {
   KaomojiFaqProps,
   KaomojiHeroProps,
   KaomojiWhatProps,
   KaomojiWhyProps,
 } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "ふわふわ顔文字一覧（Kaomoji）｜癒し・優しい・ほんわか",
+  description:
+    "ふわふわ顔文字（Kaomoji）をカテゴリ別にまとめて掲載。検索＆ワンクリックコピー対応で、癒し・優しい・ほんわかの表情がすぐ見つかります。気分に合う一つが見つかります。LINE/X（Twitter）/Instagram/Discordにそのままコピペで使えます。登録不要で無料。スマホでもOK。",
+  ...withCanonical("/fuwafuwa-kaomoji"),
+};
 
 export const fuwafuwaKaomojiHeroContent: KaomojiHeroProps = {
   title: "ふわふわ顔文字",

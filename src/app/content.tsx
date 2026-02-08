@@ -1,61 +1,21 @@
-import type { KaomojiWhyProps } from "@/features/kaomoji/types";
+import type { Metadata } from "next";
 
-export type HomeHeroContent = {
-  title: string;
-  description: string;
-  primaryCta: { href: string; label: string };
-  secondaryCta: { href: string; label: string };
-  badges: string[];
-  sample: {
-    title: string;
-    hint: string;
-    rows: Array<{ kaomoji: string; label: string }>;
-  };
-};
+import type {
+  KaomojiWhyProps,
+  HomeCtaContent,
+  HomeCultureHistoryContent,
+  HomeFaqContent,
+  HomeFeaturesContent,
+  HomeHeroContent,
+  HomeHowToUseContent,
+} from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
 
-export type HomeFeaturesContent = {
-  heading: string;
-  subheading: string;
-  items: Array<{
-    key: "copy" | "categories" | "mobile";
-    title: string;
-    description: string;
-  }>;
-};
-
-export type HomeHowToUseContent = {
-  heading: string;
-  subheading: string;
-  steps: Array<{
-    key: "choose" | "click" | "paste" | "enjoy";
-    title: string;
-    description: string;
-    step: string;
-    visual?: string;
-  }>;
-};
-
-export type HomeCultureHistoryContent = {
-  heading: string;
-  leftHeading: string;
-  body: string;
-  featuresHeading: string;
-  features: string[];
-  timelineHeading: string;
-  timeline: Array<{ label: string; kaomoji: string }>;
-};
-
-export type HomeFaqContent = {
-  heading: string;
-  items: Array<{ question: string; answer: string }>;
-};
-
-export type HomeCtaContent = {
-  heading: string;
-  description: string;
-  example: string;
-  primaryCta: { href: string; label: string };
-  secondaryCta: { href: string; label: string };
+export const metadata: Metadata = {
+  title: "顔文字一覧｜かわいい顔文字・泣く顔文字をワンクリックでコピー",
+  description:
+    "顔文字（カオモジ/Kaomoji）をテーマ別に検索してワンクリックでコピー。かわいい・泣く・キラキラ・もふもふ・怒る・照れるなど豊富に収録。人気の定番から流行まで、LINE/X（Twitter）/Instagram/Discordにそのままコピペで使えます。登録不要で無料。スマホでもOK。",
+  ...withCanonical("/"),
 };
 
 export const homeHeroContent: HomeHeroContent = {

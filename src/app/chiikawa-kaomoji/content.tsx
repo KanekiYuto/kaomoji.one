@@ -1,9 +1,19 @@
+import type { Metadata } from "next";
+
 import type {
   KaomojiFaqProps,
   KaomojiHeroProps,
   KaomojiWhatProps,
   KaomojiWhyProps,
 } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "ちいかわ顔文字一覧（Kaomoji）｜「わァ…」泣き顔から可愛い表情までコピペ",
+  description:
+    "ちいかわ顔文字（Kaomoji）をまとめて掲載。嬉しい・悲しい（わァ…）・愛などの“ちいかわ風”顔文字を、検索＆ワンクリックでコピーしてそのままコピペ。LINE/X（Twitter）/Instagram/Discordでも使えます。登録不要で無料。スマホでもOK。",
+  ...withCanonical("/chiikawa-kaomoji"),
+};
 
 export const chiikawaKaomojiHeroContent: KaomojiHeroProps = {
   title: "千川表情符号",

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import type { HomeCtaContent } from "@/features/kaomoji/content/home";
+import type { HomeCtaContent } from "@/features/kaomoji/types";
 
 export function HomeCtaSection({ content }: { content: HomeCtaContent }) {
   return (

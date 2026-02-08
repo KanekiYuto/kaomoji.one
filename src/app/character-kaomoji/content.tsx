@@ -1,9 +1,19 @@
+import type { Metadata } from "next";
+
 import type {
   KaomojiFaqProps,
   KaomojiHeroProps,
   KaomojiWhatProps,
   KaomojiWhyProps,
 } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "キャラクター顔文字一覧（Kaomoji）｜動物・くま/うさぎ・装飾をコピペ",
+  description:
+    "キャラクター顔文字（Kaomoji）をまとめて掲載。うさぎ系・くま系・特殊/装飾まで、検索＆ワンクリックでコピーしてそのままコピペ。LINE/X（Twitter）/Instagram/Discordでも使えます。登録不要で無料。スマホでもOK。",
+  ...withCanonical("/character-kaomoji"),
+};
 
 export const characterKaomojiHeroContent: KaomojiHeroProps = {
   title: "キャラクター顔文字",

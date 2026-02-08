@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+export { metadata } from "./content";
 
 import { CategoryGroups } from "@/components/home/category-groups";
 import { CultureHistorySection } from "@/components/home/culture-history-section";
@@ -16,7 +16,7 @@ import {
   homeHeroContent,
   homeHowToUseContent,
   homeKaomojiWhyContent,
-} from "@/features/kaomoji/content/home";
+} from "./content";
 import {
   Table,
   TableBody,
@@ -25,14 +25,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { withCanonical } from "@/lib/seo";
-
-export const metadata: Metadata = {
-  title: "顔文字一覧｜かわいい顔文字・泣く顔文字をワンクリックでコピー",
-  description:
-    "顔文字（カオモジ/Kaomoji）をテーマ別に検索してワンクリックでコピー。かわいい・泣く・キラキラ・もふもふ・怒る・照れるなど豊富に収録。人気の定番から流行まで、LINE/X（Twitter）/Instagram/Discordにそのままコピペで使えます。登録不要で無料。スマホでもOK。",
-  ...withCanonical("/"),
-};
 
 export default function Home() {
   return (

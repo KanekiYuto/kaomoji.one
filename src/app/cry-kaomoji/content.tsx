@@ -1,9 +1,19 @@
+import type { Metadata } from "next";
+
 import type {
   KaomojiFaqProps,
   KaomojiHeroProps,
   KaomojiWhatProps,
   KaomojiWhyProps,
 } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "泣く顔文字一覧（Kaomoji）｜かわいい泣き顔・うるうる・大泣きをコピペ",
+  description:
+    "泣く顔文字（Kaomoji）をまとめて掲載。うるうる・えーん・しくしく・大泣きまで、気持ちに合う泣き顔がすぐ見つかります。検索＆ワンクリックでコピーして、LINE/X（Twitter）/Instagram/Discordにそのままコピペ。気持ちを素直に伝えたい時に。登録不要で無料。スマホでもOK。",
+  ...withCanonical("/cry-kaomoji"),
+};
 
 export const cryKaomojiHeroContent: KaomojiHeroProps = {
   title: "泣く顔文字一覧",
@@ -160,3 +170,4 @@ export const cryKaomojiFaqContent: KaomojiFaqProps = {
     },
   ],
 };
+

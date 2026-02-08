@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+export { metadata } from "./content";
 
 import { KaomojiExplorer } from "@/features/kaomoji/components/explorer";
 import { KaomojiFaq } from "@/features/kaomoji/sections/faq";
@@ -20,15 +20,7 @@ import {
   iphoneKaomojiHeroContent,
   iphoneKaomojiWhatContent,
   iphoneKaomojiWhyContent,
-} from "@/features/kaomoji/content/iphone-kaomoji";
-import { withCanonical } from "@/lib/seo";
-
-export const metadata: Metadata = {
-  title: "iPhone 顔文字一覧（Kaomoji）｜コピペで簡単・崩れにくい定番まとめ",
-  description:
-    "iPhoneで使いやすい顔文字（Kaomoji）をまとめて掲載。崩れにくい定番から使える表情まで、カテゴリ別に検索＆ワンクリックでコピー。LINE/iMessage/X（Twitter）/Instagram/Discordにそのままコピペで使えます。登録不要で無料。スマホでもOK。",
-  ...withCanonical("/iphone-kaomoji"),
-};
+} from "./content";
 
 export default function IphoneKaomojiPage() {
   return (

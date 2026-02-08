@@ -1,9 +1,20 @@
+import type { Metadata } from "next";
+
 import type {
   KaomojiFaqProps,
   KaomojiHeroProps,
   KaomojiWhatProps,
   KaomojiWhyProps,
 } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title:
+    "ドヤ顔 顔文字一覧（Kaomoji）｜得意げ・キメ顔で自信をアピール【コピペ簡単】",
+  description:
+    "ドヤ顔顔文字（Kaomoji）をまとめて掲載。どや・どやぁ・キメ顔など、自信満々の表情がすぐ見つかります。検索＆ワンクリックでコピーして、成果報告や自慢したい時にLINE/X（Twitter）/Instagram/Discordへそのままコピペ。文章のオチにも便利。登録不要で無料。スマホでもOK。",
+  ...withCanonical("/doya-kaomoji"),
+};
 
 export const doyaKaomojiHeroContent: KaomojiHeroProps = {
   title: "ドヤ顔 顔文字一覧",

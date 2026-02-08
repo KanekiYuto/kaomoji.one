@@ -1,6 +1,6 @@
 import { ClipboardPaste, MousePointerClick, Sparkles } from "lucide-react";
 
-import type { HomeHowToUseContent } from "@/features/kaomoji/content/home";
+import type { HomeHowToUseContent } from "@/features/kaomoji/types";
 
 type StepUI = {
   visual: React.ReactNode;
@@ -31,8 +31,6 @@ function resolveStepUI(key: HomeHowToUseContent["steps"][number]["key"], visual?
         visualClassName: "bg-violet-500/10 text-violet-600 dark:text-violet-400",
       };
   }
-
-  throw new Error(`Unknown step key: ${key satisfies never}`);
 }
 
 export function HowToUseSection({ content }: { content: HomeHowToUseContent }) {

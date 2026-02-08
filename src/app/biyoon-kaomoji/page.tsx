@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+export { metadata } from "./content";
 
 import { KaomojiExplorer } from "@/features/kaomoji/components/explorer";
 import { KaomojiFaq } from "@/features/kaomoji/sections/faq";
@@ -20,15 +20,7 @@ import {
   biyoonKaomojiHeroContent,
   biyoonKaomojiWhatContent,
   biyoonKaomojiWhyContent,
-} from "@/features/kaomoji/content/biyoon-kaomoji";
-import { withCanonical } from "@/lib/seo";
-
-export const metadata: Metadata = {
-  title: "びよーん顔文字一覧（Kaomoji）｜伸ばす・引っ張る・もちもち",
-  description:
-    "びよーん顔文字（Kaomoji）をカテゴリ別にまとめて掲載。伸ばす・引っ張る・もちもち系の表情を、検索＆ワンクリックでコピーできます。ネタにもリアクションにも便利。LINE/X（Twitter）/Instagram/Discordにそのままコピペ。登録不要で無料。スマホでもOK。",
-  ...withCanonical("/biyoon-kaomoji"),
-};
+} from "./content";
 
 export default function BiyoonKaomojiPage() {
   return (

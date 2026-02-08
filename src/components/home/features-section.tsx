@@ -1,6 +1,6 @@
 import { Copy, Search, Smartphone } from "lucide-react";
 
-import type { HomeFeaturesContent } from "@/features/kaomoji/content/home";
+import type { HomeFeaturesContent } from "@/features/kaomoji/types";
 
 type FeatureItem = {
   title: string;

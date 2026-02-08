@@ -1,4 +1,4 @@
-import type { HomeCultureHistoryContent } from "@/features/kaomoji/content/home";
+import type { HomeCultureHistoryContent } from "@/features/kaomoji/types";
 
 export function CultureHistorySection({
   content,

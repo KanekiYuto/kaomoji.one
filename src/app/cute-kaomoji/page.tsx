@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+export { metadata } from "./content";
 
 import { KaomojiExplorer } from "@/features/kaomoji/components/explorer";
 import { KaomojiFaq } from "@/features/kaomoji/sections/faq";
@@ -20,15 +20,7 @@ import {
   cuteKaomojiHeroContent,
   cuteKaomojiWhatContent,
   cuteKaomojiWhyContent,
-} from "@/features/kaomoji/content/cute-kaomoji";
-import { withCanonical } from "@/lib/seo";
-
-export const metadata: Metadata = {
-  title: "かわいい顔文字一覧（Kaomoji）｜もこもこ・動物・ハートをコピペで簡単",
-  description:
-    "かわいい顔文字（Kaomoji）を厳選して掲載。もこもこ系・動物・ハートなど、気分に合わせてすぐコピペ。検索＆ワンクリックコピーで、LINE/X（Twitter）/Instagram/Discordの一言がふわっと可愛くなります。ワンクリックでコピーしてすぐ使える、登録不要で無料。",
-  ...withCanonical("/cute-kaomoji"),
-};
+} from "./content";
 
 export default function CuteKaomojiPage() {
   return (
