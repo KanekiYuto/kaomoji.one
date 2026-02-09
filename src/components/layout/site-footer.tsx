@@ -22,6 +22,7 @@ const footerSections = [
       { label: "make.rs", href: "https://make.rs/project/5108-kaomoji" },
       { label: "lit.link", href: "https://lit.link/en/yutokanekikanekiyuto" },
       { label: "npmmirror.com", href: "https://npmmirror.com/package/kaomoji_one_npm" },
+      { label: "pinterest.com", href: "https://jp.pinterest.com/kanekiyuto404/_profile/" },
     ],
   },
   {
