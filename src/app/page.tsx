@@ -88,6 +88,11 @@ export default function Home() {
                     </a>
                   </TableCell>
                 </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <a href="https://mossai.org" title="MossAI Tools">MossAI Tools</a>
+                  </TableCell>
+                </TableRow>
               </TableBody>
             </Table>
           </div>
