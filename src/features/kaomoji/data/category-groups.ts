@@ -142,6 +142,13 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "魚顔文字まとめ。基本の魚・特殊文字🐟・金魚・フグ🐡までコピペ。",
       },
       {
+        href: "/kani-kaomoji",
+        label: "カニ",
+        sample: "(V)('ω')(V)",
+        description:
+          "カニ顔文字まとめ。かわいい・チョキチョキ・はさみ・絵文字付きまでワンクリックでコピペ。",
+      },
+      {
         href: "/shirasu-kaomoji",
         label: "しらす",
         sample: "(｡∀ﾟ)",
