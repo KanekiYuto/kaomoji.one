@@ -114,6 +114,27 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "猫・犬・熊・兎など動物の顔文字をまとめてチェック。かわいい動物の表情をコピペできます。",
       },
       {
+        href: "/kuma-kaomoji",
+        label: "くま",
+        sample: "ʕ•ᴥ•ʔ",
+        description:
+          "くま顔文字まとめ。定番（ʕ•ᴥ•ʔ）・かわいい・表情・アクションまでコピペ。",
+      },
+      {
+        href: "/kitsune-kaomoji",
+        label: "きつね",
+        sample: "^.,.^",
+        description:
+          "きつね顔文字まとめ。かわいい・いたずら・🦊絵文字付き・和風までコピペ。",
+      },
+      {
+        href: "/momonga-kaomoji",
+        label: "モモンガ",
+        sample: "꒰՞o̴̶̷̤ᾥo̴̶̷̤՞꒱",
+        description:
+          "モモンガ顔文字まとめ。かわいい・表情・滑空（飛ぶ）・ユニークまでコピペ。",
+      },
+      {
         href: "/cat-kaomoji",
         label: "猫",
         sample: "ฅ^•ω•^ฅ",
@@ -147,6 +168,20 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
         sample: "(V)('ω')(V)",
         description:
           "カニ顔文字まとめ。かわいい・チョキチョキ・はさみ・絵文字付きまでワンクリックでコピペ。",
+      },
+      {
+        href: "/kurage-kaomoji",
+        label: "クラゲ",
+        sample: "(o🪼'▽')o🪼",
+        description:
+          "クラゲ顔文字まとめ。ぷかぷか・デコ・絵文字付き・かわいいまでコピペ。",
+      },
+      {
+        href: "/same-kaomoji",
+        label: "サメ",
+        sample: "(^^^)",
+        description:
+          "サメ顔文字まとめ。かわいい・怖い・泳ぐ・ASCIIアート・🦈絵文字までコピペ。",
       },
       {
         href: "/shirasu-kaomoji",
