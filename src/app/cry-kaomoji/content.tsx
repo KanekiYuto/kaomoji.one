@@ -235,3 +235,9 @@ export const cryKaomojiGroups: KaomojiCollectionGroup[] = [
     ]).map((kaomoji) => ({ kaomoji, tags: ["しょんぼり", "落ち込み"] })),
   },
 ];
+
+// Plain text dump for SEO tools that over-weight text/HTML ratio.
+// This is also useful for users who want to copy multiple kaomojis at once.
+export const cryKaomojiPlainText: string = uniq(
+  cryKaomojiGroups.flatMap((group) => group.items.map((item) => item.kaomoji))
+).join("\n");
