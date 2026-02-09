@@ -13,6 +13,17 @@ const footerSections = [
     ],
   },
   {
+    title: "Links",
+    links: [
+      { label: "dev.to", href: "https://dev.to/yuto_kanekikanekiyuto_" },
+      { label: "substack.com", href: "https://substack.com/@yutokaneki" },
+      { label: "npmjs.com", href: "https://www.npmjs.com/package/kaomoji_one_npm" },
+      { label: "chot.design", href: "https://chot.design/members/kaomoji/" },
+      { label: "make.rs", href: "https://make.rs/project/5108-kaomoji" },
+      { label: "lit.link", href: "https://lit.link/en/yutokanekikanekiyuto" },
+    ],
+  },
+  {
     title: "関連サイト",
     links: [{ label: "PicooAI", href: "https://picooai.com", external: true }],
   },
