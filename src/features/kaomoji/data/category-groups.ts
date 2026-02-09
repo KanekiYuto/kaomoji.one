@@ -135,6 +135,174 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "モモンガ顔文字まとめ。かわいい・表情・滑空（飛ぶ）・ユニークまでコピペ。",
       },
       {
+        href: "/karasu-kaomoji",
+        label: "カラス",
+        sample: "🐦‍⬛",
+        description:
+          "カラス顔文字まとめ。絵文字系・シンプル・かわいい・鳴き声までコピペ。",
+      },
+      {
+        href: "/tanuki-kaomoji",
+        label: "たぬき/狸/タヌキ",
+        sample: "₍ᐢ⓿ᴥ⓿ᐢ₎",
+        description:
+          "たぬき/狸/タヌキ顔文字まとめ。基本・かわいい・シンプル・デコまでコピペ。",
+      },
+      {
+        href: "/tako-kaomoji",
+        label: "たこ",
+        sample: "𐂠(ᵒ⊙꒳ᵒ)𐂠",
+        description:
+          "たこ顔文字まとめ。ASCII art・絵文字付き・基本・特殊記号までコピペ。",
+      },
+      {
+        href: "/takoyaki-kaomoji",
+        label: "たこ焼き",
+        sample: "(๑´ڡ`๑)",
+        description:
+          "たこ焼き顔文字まとめ。基本・絵文字付き・かわいい・デコまでコピペ。",
+      },
+      {
+        href: "/ahiru-kaomoji",
+        label: "アヒル",
+        sample: "(・Θ・)",
+        description:
+          "アヒル顔文字まとめ。基本・かわいい・シンプル・デコまでコピペ。",
+      },
+      {
+        href: "/tori-kaomoji",
+        label: "鳥",
+        sample: "(・⊝・)",
+        description:
+          "鳥顔文字まとめ。シンプル・かわいい・ひよこ・飛ぶ鳥までコピペ。",
+      },
+      {
+        href: "/thanks-kaomoji",
+        label: "ありがとう/感謝/サンキュー",
+        sample: "ｱﾘｶﾞﾄ♡(｡･･｡)",
+        description:
+          "ありがとう/感謝/サンキュー顔文字まとめ。ありがとう系・感謝系・あざす系・Thank you系までコピペ。",
+      },
+      {
+        href: "/hage-kaomoji",
+        label: "ハゲ",
+        sample: "✨彡⌒ミ(´･ω･`)✨",
+        description:
+          "ハゲ顔文字まとめ。可愛いハゲ・シンプルなハゲ・彡⌒ミスタイル・テキスト入りハゲまでコピペ。",
+      },
+      {
+        href: "/ojisan-kaomoji",
+        label: "おじさん",
+        sample: "( ´灬` )",
+        description:
+          "おじさん顔文字まとめ。絵文字付き・シンプル・かわいい・表情豊かまでコピペ。",
+      },
+      {
+        href: "/shisa-kaomoji",
+        label: "シーサー",
+        sample: "꒰(՞..◜ヮ◝..՞)꒱",
+        description:
+          "シーサー顔文字まとめ。基本的なシーサー・可愛いシーサー・勇ましいシーサー・眠いシーサーまでコピペ。",
+      },
+      {
+        href: "/doraemon-kaomoji",
+        label: "ドラえもん",
+        sample: "((=ﾟДﾟ=)ﾉ",
+        description:
+          "ドラえもん顔文字まとめ。可愛いドラえもん・ASCII アートのドラえもん・シンプルなドラえもん・秘密道具を使うドラえもんまでコピペ。",
+      },
+      {
+        href: "/my-melody-kaomoji",
+        label: "マイメロ",
+        sample: "ᐡ o̴̶̷ ࿁ o̴̶̷ ᐡ",
+        description:
+          "マイメロ顔文字まとめ。基本系・可愛い系・装飾系・絵文字組合系までコピペ。",
+      },
+      {
+        href: "/miffy-kaomoji",
+        label: "ミッフィー",
+        sample: "(・×・)",
+        description:
+          "ミッフィー顔文字まとめ。基本型・点型・表情変化・アクションまでコピペ。",
+      },
+      {
+        href: "/kirby-kaomoji",
+        label: "カービィ",
+        sample: "( ⊃'-'⊂ )",
+        description:
+          "カービィ顔文字まとめ。基本的なカービィ・ポヨポヨ系・アクション系・感情表現系までコピペ。",
+      },
+      {
+        href: "/kaeru-kaomoji",
+        label: "カエル",
+        sample: "Θ_Θ",
+        description:
+          "カエル顔文字まとめ。ASCII Art・基本的なカエル・可愛い系・絵文字入りまでコピペ。",
+      },
+      {
+        href: "/rabbit-kaomoji",
+        label: "うさぎ/ウサギ/兎",
+        sample: "₍ᐢ.ˬ.ᐢ₎",
+        description:
+          "うさぎ/ウサギ/兎顔文字まとめ。基本うさぎ顔文字・ハート付きうさぎ・装飾・絵文字風・複雑・組み合わせまでコピペ。",
+      },
+      {
+        href: "/azarashi-kaomoji",
+        label: "あざらし",
+        sample: "(´ω` っ)З",
+        description:
+          "あざらし顔文字まとめ。基本的な海豹・可愛い表情・泳ぐ・水中・嬉しい・幸せまでコピペ。",
+      },
+      {
+        href: "/tora-kaomoji",
+        label: "虎",
+        sample: "ฅ(`ω´)ฅ",
+        description:
+          "虎顔文字まとめ。基本・かわいい・テキスト系・絵文字付きまでコピペ。",
+      },
+      {
+        href: "/gorira-kaomoji",
+        label: "ゴリラ",
+        sample: "( -᷅ ̫̈-᷄ )",
+        description:
+          "ゴリラ顔文字まとめ。基本・かわいい・テキスト系・絵文字付きまでコピペ。",
+      },
+      {
+        href: "/horse-kaomoji",
+        label: "馬",
+        sample: "𓃗 ⋆",
+        description:
+          "馬顔文字まとめ。シンプル 𓃗・絵文字付き 🐴・チェス・特殊文字 ♘までコピペ。",
+      },
+      {
+        href: "/hiyoko-kaomoji",
+        label: "ひよこ",
+        sample: "(・Θ・)",
+        description:
+          "ひよこ顔文字まとめ。基本・かわいい・デコ・絵文字付きまでコピペ。",
+      },
+      {
+        href: "/hamusutaa-kaomoji",
+        label: "ハムスター",
+        sample: "ʕ•ᴥ•ʔ",
+        description:
+          "ハムスター顔文字まとめ。基本・かわいい・シンプル・デコまでコピペ。",
+      },
+      {
+        href: "/azasu-kaomoji",
+        label: "あざーす/あざす/アザース",
+        sample: "🙏(・∀・)ﾉぁざーすっ♪",
+        description:
+          "あざーす/あざす/アザース顔文字まとめ。基本・かわいい・敬礼・お辞儀までコピペ。",
+      },
+      {
+        href: "/baymax-kaomoji",
+        label: "ベイマックス",
+        sample: "( ●－● )💙",
+        description:
+          "ベイマックス顔文字まとめ。アスキーアート・シンプル・かわいい・表情豊かまでコピペ。",
+      },
+      {
         href: "/cat-kaomoji",
         label: "猫",
         sample: "ฅ^•ω•^ฅ",
