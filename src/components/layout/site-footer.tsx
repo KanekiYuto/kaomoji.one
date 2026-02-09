@@ -21,6 +21,7 @@ const footerSections = [
       { label: "chot.design", href: "https://chot.design/members/kaomoji/" },
       { label: "make.rs", href: "https://make.rs/project/5108-kaomoji" },
       { label: "lit.link", href: "https://lit.link/en/yutokanekikanekiyuto" },
+      { label: "npmmirror.com", href: "https://npmmirror.com/package/kaomoji_one_npm" },
     ],
   },
   {
