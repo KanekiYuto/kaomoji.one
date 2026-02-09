@@ -121,6 +121,34 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "猫/ねこ/ネコ顔文字まとめ。定番・特殊文字・ニャー・招き猫・ハート系までコピペ。",
       },
       {
+        href: "/dog-kaomoji",
+        label: "犬",
+        sample: "U・ᴥ・U",
+        description:
+          "犬顔文字まとめ。基本・ワンワン（鳴き声）・特殊文字・可愛い系までコピペ。",
+      },
+      {
+        href: "/buta-kaomoji",
+        label: "豚",
+        sample: "(๑•(oo)•๑)",
+        description:
+          "豚顔文字まとめ。かわいい・シンプル・表情豊か・AA風までコピペ。",
+      },
+      {
+        href: "/fish-kaomoji",
+        label: "魚",
+        sample: "∈(ﾟ◎ﾟ)∋",
+        description:
+          "魚顔文字まとめ。基本の魚・特殊文字🐟・金魚・フグ🐡までコピペ。",
+      },
+      {
+        href: "/shirasu-kaomoji",
+        label: "しらす",
+        sample: "(｡∀ﾟ)",
+        description:
+          "しらす顔文字まとめ。シンプル・動き・キラキラ・海・群れまでワンクリックでコピペ。",
+      },
+      {
         href: "/nyaa-kaomoji",
         label: "ニャー",
         sample: "ฅ•ω•ฅﾆｬｰ",
