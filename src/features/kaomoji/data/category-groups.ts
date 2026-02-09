@@ -121,6 +121,13 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "猫/ねこ/ネコ顔文字まとめ。定番・特殊文字・ニャー・招き猫・ハート系までコピペ。",
       },
       {
+        href: "/nyaa-kaomoji",
+        label: "ニャー",
+        sample: "ฅ•ω•ฅﾆｬｰ",
+        description:
+          "ニャー/ニャンの鳴き声つき顔文字まとめ。挨拶・感情・動作・可愛いにゃーまでコピペ。",
+      },
+      {
         href: "/chiikawa-kaomoji",
         label: "ちいかわ",
         sample: "(՞ᵕ՞)",
