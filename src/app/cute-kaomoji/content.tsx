@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 
 import type {
+  KaomojiCollectionGroup,
   KaomojiFaqProps,
   KaomojiHeroProps,
   KaomojiWhatProps,
   KaomojiWhyProps,
 } from "@/features/kaomoji/types";
+
 import { withCanonical } from "@/lib/seo";
+import { uniq } from "@/features/kaomoji/data/uniq";
 
 export const metadata: Metadata = {
   title: "かわいい顔文字一覧（Kaomoji）｜もこもこ・動物・ハートをコピペで簡単",
@@ -176,3 +179,72 @@ export const cuteKaomojiFaqContent: KaomojiFaqProps = {
   ],
 };
 
+export const cuteKaomojiGroups: KaomojiCollectionGroup[] = [
+  {
+    title: "基本・定番",
+    items: uniq([
+      "٩꒰｡•◡•｡꒱۶",
+      "(´｡• ᵕ •｡`)",
+      "(*´꒳`*)",
+      "(◕‿◕)",
+      "｡◕‿◕｡",
+      "(〃'▽'〃)",
+      "(⁎⁍̴̛ᴗ⁍̴̛⁎)",
+      "ꉂ(ˊᗜˋ*)",
+      "⸜(*ˊᗜˋ*)⸝",
+      "(｡•ᴗ-)_",
+    ]).map((kaomoji) => ({ kaomoji, tags: ["かわいい", "定番"] })),
+  },
+  {
+    title: "もこもこ系",
+    items: uniq([
+      "꒰｡•◡•｡꒱",
+      "꒰◍⍢◍꒱",
+      "꒰✩˙˟˙✩꒱",
+      "꒰*´∀`*꒱",
+      "꒰*･ω･*꒱",
+      "◝꒰´꒳`꒱◟",
+      "꒰๑•×•๑꒱",
+      "꒰๑°꒵°๑꒱",
+      "꒰ *´ω`* ꒱",
+      "꒰｡･ω･`;꒱",
+    ]).map((kaomoji) => ({ kaomoji, tags: ["もこもこ"] })),
+  },
+  {
+    title: "もきゅ系",
+    items: uniq([
+      "(*´v｀)ﾓｷｭ",
+      "(´･ω･｀)ﾓｷｭ",
+      "ﾓｷｭ(｡´•ㅅ•｡)",
+      "(っ ॑꒳ ॑c).゜ﾓｷｭ",
+      "ﾓｷｭ(*´ω｀*)ﾓｷｭ",
+      "(ノ)ω(ヾ)ﾓｷｭﾓｷｭ♡",
+      "ﾓｷｭฅ(´-ω-`)ฅﾓｷｭ",
+      "( っ)•ω•(ｃ )♡.゜",
+    ]).map((kaomoji) => ({ kaomoji, tags: ["もきゅ", "擬音"] })),
+  },
+  {
+    title: "ガオー系",
+    items: uniq([
+      "(｢・ω・)｢ｶﾞｵｰ",
+      "(｢･ω･)｢ｶﾞｵｰ",
+      "(｢ﾟДﾟ)｢がぉー",
+      "ฅ^•ﻌ•^ฅがお～♪",
+      "ガオー(*｢･д･)｢",
+      "(｢=ω=)｢ｶﾞｵｰ",
+      "ฅ(•̀㉨•́ )ฅｶﾞｵｰ♡",
+      "(｢・A・)｢ ｶﾞｵｰ",
+    ]).map((kaomoji) => ({ kaomoji, tags: ["ガオー", "動物"] })),
+  },
+  {
+    title: "ちょこん系",
+    items: uniq([
+      "_( ˙꒳​˙ _ )",
+      "_( ˙꒳​˙ _ )ﾁｮｺﾝ",
+      "( ⊃'-'⊂ )ﾁｮｺﾝ♡",
+      "_( *´꒳`* _ )_ﾁｮｺﾝ♡",
+      "_( _ \" ꒳ \" )_ﾁｮｺﾝ♡",
+      "待機_( ˙꒳​˙ _ )ﾁｮｺﾝ",
+    ]).map((kaomoji) => ({ kaomoji, tags: ["ちょこん", "待機"] })),
+  },
+];

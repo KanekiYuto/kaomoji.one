@@ -10,7 +10,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { KaomojiExplorer } from "@/features/kaomoji/components/explorer";
-import { gougokuKaomojiGroups } from "@/features/kaomoji/data/gougoku-kaomoji";
+import { gougokuKaomojiGroups } from "./content";
 import {
   gougokuKaomojiFaqContent,
   gougokuKaomojiHeroContent,

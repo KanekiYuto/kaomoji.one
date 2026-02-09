@@ -14,7 +14,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { yumekawaKaomojiGroups } from "@/features/kaomoji/data/yumekawa-kaomoji";
+import { yumekawaKaomojiGroups } from "./content";
 import {
   yumekawaKaomojiFaqContent,
   yumekawaKaomojiHeroContent,

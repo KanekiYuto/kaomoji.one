@@ -9,6 +9,7 @@ import type {
   HomeHeroContent,
   HomeHowToUseContent,
 } from "@/features/kaomoji/types";
+
 import { withCanonical } from "@/lib/seo";
 
 export const metadata: Metadata = {

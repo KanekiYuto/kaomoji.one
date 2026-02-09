@@ -14,7 +14,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { biyoonKaomojiGroups } from "@/features/kaomoji/data/biyoon-kaomoji";
+import { biyoonKaomojiGroups } from "./content";
 import {
   biyoonKaomojiFaqContent,
   biyoonKaomojiHeroContent,

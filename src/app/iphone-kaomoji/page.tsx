@@ -14,7 +14,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { iphoneKaomojiGroups } from "@/features/kaomoji/data/iphone-kaomoji";
+import { iphoneKaomojiGroups } from "./content";
 import {
   iphoneKaomojiFaqContent,
   iphoneKaomojiHeroContent,

@@ -100,6 +100,20 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "動物（うさぎ/くま）や特殊・装飾まで。キャラクター顔文字をまとめてコピペ。",
       },
       {
+        href: "/anpanman-kaomoji",
+        label: "アンパンマン",
+        sample: "(● ̍̑⚈ ̍̑●)",
+        description:
+          "アンパンマンの丸い顔と赤いほっぺが特徴の顔文字。元気・可愛い・アクション系をまとめてチェック。",
+      },
+      {
+        href: "/animal-kaomoji",
+        label: "動物",
+        sample: "(=^･ω･^=)",
+        description:
+          "猫・犬・熊・兎など動物の顔文字をまとめてチェック。かわいい動物の表情をコピペできます。",
+      },
+      {
         href: "/chiikawa-kaomoji",
         label: "ちいかわ",
         sample: "(՞ᵕ՞)",
@@ -109,3 +123,4 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
     ],
   },
 ];
+

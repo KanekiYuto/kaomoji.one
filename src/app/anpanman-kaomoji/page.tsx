@@ -1,4 +1,4 @@
-export { metadata } from "./content";
+﻿export { metadata } from "./content";
 
 import { KaomojiExplorer } from "@/features/kaomoji/components/explorer";
 import { KaomojiFaq } from "@/features/kaomoji/sections/faq";
@@ -14,18 +14,18 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { kimoiKaomojiGroups } from "./content";
 import {
-  kimoiKaomojiFaqContent,
-  kimoiKaomojiHeroContent,
-  kimoiKaomojiWhatContent,
-  kimoiKaomojiWhyContent,
+  anpanmanKaomojiFaqContent,
+  anpanmanKaomojiGroups,
+  anpanmanKaomojiHeroContent,
+  anpanmanKaomojiWhatContent,
+  anpanmanKaomojiWhyContent,
 } from "./content";
 
-export default function KimoiKaomojiPage() {
+export default function AnpanmanKaomojiPage() {
   return (
     <div>
-      <KaomojiHero {...kimoiKaomojiHeroContent} />
+      <KaomojiHero {...anpanmanKaomojiHeroContent} />
 
       <div
         id="list"
@@ -38,25 +38,16 @@ export default function KimoiKaomojiPage() {
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
-              <BreadcrumbPage>キモい顔文字</BreadcrumbPage>
+              <BreadcrumbPage>アンパンマン顔文字</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
 
-        <KaomojiExplorer
-          groups={kimoiKaomojiGroups}
-          searchPlaceholder="顔文字を検索..."
-          allLabel="すべてのカテゴリ"
-          groupCountSuffix="個の顔文字"
-          totalPrefix="表示: "
-          totalSuffix="個"
-          emptyTitle="該当する顔文字が見つかりません"
-          emptyDescription="キーワードやカテゴリを変えて、もう一度お試しください。"
-        />
-        <KaomojiWhat {...kimoiKaomojiWhatContent} />
-        <KaomojiWhy {...kimoiKaomojiWhyContent} />
-        <KaomojiFaq {...kimoiKaomojiFaqContent} />
-        <RecommendedKaomojiSection currentPath="/kimoi-kaomoji" />
+        <KaomojiExplorer groups={anpanmanKaomojiGroups} />
+        <KaomojiWhat {...anpanmanKaomojiWhatContent} />
+        <KaomojiWhy {...anpanmanKaomojiWhyContent} />
+        <KaomojiFaq {...anpanmanKaomojiFaqContent} />
+        <RecommendedKaomojiSection currentPath="/anpanman-kaomoji" />
       </div>
     </div>
   );

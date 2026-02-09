@@ -9,7 +9,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { characterKaomojiGroups } from "@/features/kaomoji/data/character-kaomoji";
+import { characterKaomojiGroups } from "./content";
 import {
   characterKaomojiFaqContent,
   characterKaomojiHeroContent,

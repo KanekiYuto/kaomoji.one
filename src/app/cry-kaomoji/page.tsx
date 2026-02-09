@@ -14,7 +14,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { cryKaomojiGroups } from "@/features/kaomoji/data/cry-kaomoji";
+import { cryKaomojiGroups } from "./content";
 import {
   cryKaomojiFaqContent,
   cryKaomojiHeroContent,
