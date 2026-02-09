@@ -109,9 +109,7 @@ export function SiteHeader() {
                 </nav>
               </div>
 
-              <SheetFooter>
-                <div />
-              </SheetFooter>
+              <SheetFooter/>
             </SheetContent>
           </Sheet>
         </div>

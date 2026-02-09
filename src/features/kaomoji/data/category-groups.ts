@@ -114,6 +114,13 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
           "猫・犬・熊・兎など動物の顔文字をまとめてチェック。かわいい動物の表情をコピペできます。",
       },
       {
+        href: "/cat-kaomoji",
+        label: "猫",
+        sample: "ฅ^•ω•^ฅ",
+        description:
+          "猫/ねこ/ネコ顔文字まとめ。定番・特殊文字・ニャー・招き猫・ハート系までコピペ。",
+      },
+      {
         href: "/chiikawa-kaomoji",
         label: "ちいかわ",
         sample: "(՞ᵕ՞)",
