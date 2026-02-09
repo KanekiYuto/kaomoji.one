@@ -374,5 +374,151 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
       },
     ],
   },
+  {
+    title: "スタイル別",
+    defaultOpen: true,
+    items: [
+      {
+        href: "/star-kaomoji",
+        label: "星",
+        sample: "⭐",
+        description:
+          "星顔文字まとめ。絵文字付き・かわいい・基本・デコ・特殊までコピペ。",
+      },
+      {
+        href: "/tsuki-kaomoji",
+        label: "月",
+        sample: "(☾_☾)",
+        description:
+          "月顔文字まとめ。基本・かわいい・シンプル・デコまでコピペ。",
+      },
+      {
+        href: "/nagareboshi-kaomoji",
+        label: "流れ星",
+        sample: "｡･*･:≡( 「ε:)ﾉ💫",
+        description:
+          "流れ星顔文字まとめ。可愛い流れ星・シンプル流れ星・願い事流れ星・夜空流れ星までコピペ。",
+      },
+      {
+        href: "/kirakira-kaomoji",
+        label: "キラキラ/キラッ☆/キラーン",
+        sample: "॑⸜(* ॑꒳ ॑* )⸝⋆*",
+        description:
+          "キラキラ/キラッ☆/キラーン顔文字まとめ。基本・かわいい・デコ・シンプルまでコピペ。",
+      },
+      {
+        href: "/pikapika-kaomoji",
+        label: "ピカピカ",
+        sample: "✧(°∀°)✧",
+        description:
+          "ピカピカ顔文字まとめ。シンプル系・かわいい系・ひらめき・閃き系・絵文字付きまでコピペ。",
+      },
+      {
+        href: "/kigou-kaomoji",
+        label: "記号",
+        sample: "✧٩(ˊᗜˋ*)و✧",
+        description:
+          "記号顔文字まとめ。かわいい記号・シンプル記号・絵文字ミックス・特殊記号までコピペ。",
+      },
+      {
+        href: "/kiraan-kaomoji",
+        label: "キラーン",
+        sample: "( ✧Д✧) ｷﾗｰﾝ",
+        description:
+          "キラーン顔文字まとめ。基本的なキラーン・可愛いキラキラ・猫のキラーン・アクション系までコピペ。",
+      },
+      {
+        href: "/line-kaomoji",
+        label: "線/ライン",
+        sample: "＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿",
+        description:
+          "線/ライン顔文字まとめ。基本の区切り線・切り取り線✂・点線・破線・装飾ライン・飾り線までコピペ。",
+      },
+      {
+        href: "/ribbon-kaomoji",
+        label: "リボン",
+        sample: "🎀",
+        description:
+          "リボン顔文字まとめ。リボン絵文字・特殊文字・記号・ハート付きまでコピペ。",
+      },
+      {
+        href: "/ryosangata-kaomoji",
+        label: "量産型",
+        sample: "ᐡ ̫ ᐡ",
+        description:
+          "量産型顔文字まとめ。基本の量産型・装飾付き・動物系・ハート系までコピペ。",
+      },
+      {
+        href: "/jirai-kaomoji",
+        label: "地雷系",
+        sample: "ᐡ ̫ ᐡ",
+        description:
+          "地雷系顔文字まとめ。病みかわ・ゴシック・量産型寄り・メンヘラ系までコピペ。",
+      },
+      {
+        href: "/menhera-kaomoji",
+        label: "メンヘラ",
+        sample: "(🎀ㅇ-ㅇ)🔪",
+        description:
+          "メンヘラ顔文字まとめ。かわいい・シンプル・病み系・ヤンデレ風までコピペ。",
+      },
+      {
+        href: "/glasses-kaomoji",
+        label: "メガネ",
+        sample: "(-□д□-)✧",
+        description:
+          "メガネ顔文字まとめ。基本的なメガネ・メガネを押す・調整・サングラス・可愛いメガネまでコピペ。",
+      },
+      {
+        href: "/gyaru-kaomoji",
+        label: "ギャル",
+        sample: "(๑ơ ₃ ơ)✨₹˝ｬʓ₹˝ｬʓ",
+        description:
+          "ギャル顔文字まとめ。基本・かわいい・デコ・ハートまでコピペ。",
+      },
+      {
+        href: "/hengao-kaomoji",
+        label: "変顔",
+        sample: "( ᐛ )",
+        description:
+          "変顔顔文字まとめ。基本の変顔・きもかわいい・ネタ・ミーム系・不気味・きもいまでコピペ。",
+      },
+      {
+        href: "/homoo-kaomoji",
+        label: "ホモォ",
+        sample: "┌(┌^o^)┐ﾎﾓｫ…",
+        description:
+          "ホモォ顔文字まとめ。シンプル・かわいい・動き・感情までコピペ。",
+      },
+      {
+        href: "/juujika-kaomoji",
+        label: "十字架",
+        sample: "†",
+        description:
+          "十字架顔文字まとめ。シンプルな十字架・可愛い十字架・祈りの十字架・装飾された十字架までコピペ。",
+      },
+      {
+        href: "/oukan-kaomoji",
+        label: "王冠",
+        sample: "👑",
+        description:
+          "王冠顔文字まとめ。シンプル・かわいい・装飾・特殊記号までコピペ。",
+      },
+      {
+        href: "/america-kaomoji",
+        label: "アメリカ",
+        sample: "アメリカ🇺🇸",
+        description:
+          "アメリカ顔文字まとめ。シンプル・かわいい・ハッピー・笑いまでコピペ。",
+      },
+      {
+        href: "/alphabet-kaomoji",
+        label: "アルファベット",
+        sample: "💕 :D 💕",
+        description:
+          "アルファベット顔文字まとめ。かわいい・シンプル・メアド用・英語スタイルまでコピペ。",
+      },
+    ],
+  },
 ];
 
