@@ -123,3 +123,58 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* KaomojiExplorer: shrink repeated Tailwind class strings in rendered HTML */
+  .k-explorer {
+    @apply space-y-6;
+  }
+  .k-explorer__top {
+    @apply space-y-5;
+  }
+  .k-explorer__search {
+    @apply relative;
+  }
+  .k-explorer__searchIcon {
+    @apply pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground;
+  }
+  .k-explorer__input {
+    @apply flex h-10 w-full rounded-md border border-input bg-background pl-10 pr-3 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+  }
+  .k-explorer__pills {
+    @apply flex flex-wrap gap-2;
+  }
+  .k-explorer__pill {
+    @apply inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium text-foreground transition-colors hover:bg-accent;
+  }
+  .k-explorer__pill--active {
+    @apply bg-primary text-primary-foreground font-semibold border-transparent hover:bg-primary;
+  }
+  .k-explorer__groups {
+    @apply space-y-14;
+  }
+  .k-explorer__group {
+    @apply space-y-6;
+  }
+  .k-explorer__groupHeader {
+    @apply rounded-lg border bg-muted/30 p-5;
+  }
+  .k-explorer__groupTitle {
+    @apply text-2xl font-bold text-foreground;
+  }
+  .k-explorer__groupCount {
+    @apply mt-1 text-sm text-muted-foreground;
+  }
+  .k-explorer__items {
+    @apply flex flex-wrap gap-3 md:gap-4;
+  }
+  .k-explorer__item {
+    @apply inline-flex items-center gap-2 rounded-2xl border border-border bg-card p-3 text-card-foreground shadow-none transition-colors hover:border-primary/30 hover:bg-accent/30;
+  }
+  .k-explorer__itemText {
+    @apply whitespace-pre-wrap break-all font-mono text-base leading-tight md:text-lg;
+  }
+  .k-explorer__total {
+    @apply border-t pt-6 text-center text-sm text-muted-foreground;
+  }
+}

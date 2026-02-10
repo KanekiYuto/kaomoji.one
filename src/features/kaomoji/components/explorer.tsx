@@ -5,7 +5,6 @@ import { Search } from "lucide-react";
 
 import type { KaomojiCollectionGroup } from "@/features/kaomoji/types";
 import { CopyButton } from "@/features/kaomoji/components/copy-button";
-import { Card, CardContent } from "@/components/ui/card";
 import { Empty } from "@/components/ui/empty";
 
 export type KaomojiExplorerProps = {
@@ -35,6 +34,12 @@ export function KaomojiExplorer({
 }: KaomojiExplorerProps) {
   const [query, setQuery] = React.useState("");
   const [activeCategory, setActiveCategory] = React.useState<string>("__all__");
+
+  const pillClassName = React.useCallback(
+    (isActive: boolean) =>
+      isActive ? "k-explorer__pill k-explorer__pill--active" : "k-explorer__pill",
+    []
+  );
 
   const categories = React.useMemo(
     () => groups.map((group) => group.title),
@@ -67,27 +72,23 @@ export function KaomojiExplorer({
   );
 
   return (
-    <section className="space-y-6">
-      <div className="space-y-5">
-        <div className="relative">
-          <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+    <section className="k-explorer">
+      <div className="k-explorer__top">
+        <div className="k-explorer__search">
+          <Search className="k-explorer__searchIcon" />
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder={searchPlaceholder}
-            className="flex h-10 w-full rounded-md border border-input bg-background pl-10 pr-3 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            className="k-explorer__input"
           />
         </div>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="k-explorer__pills">
           <button
             type="button"
             onClick={() => setActiveCategory("__all__")}
-            className={
-              activeCategory === "__all__"
-                ? "inline-flex items-center rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground"
-                : "inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium text-foreground hover:bg-accent"
-            }
+            className={pillClassName(activeCategory === "__all__")}
           >
             {allLabel}
           </button>
@@ -97,11 +98,7 @@ export function KaomojiExplorer({
               key={category}
               type="button"
               onClick={() => setActiveCategory(category)}
-              className={
-                activeCategory === category
-                  ? "inline-flex items-center rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground"
-                  : "inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium text-foreground hover:bg-accent"
-              }
+              className={pillClassName(activeCategory === category)}
             >
               {category}
             </button>
@@ -117,40 +114,33 @@ export function KaomojiExplorer({
         />
       ) : (
         <>
-          <div className="space-y-14">
+          <div className="k-explorer__groups">
             {filteredGroups.map((group) => (
-              <section key={group.title} className="space-y-6">
-                <div className="rounded-lg border bg-muted/30 p-5">
-                  <h2 className="text-2xl font-bold text-foreground">{group.title}</h2>
-                  <p className="mt-1 text-sm text-muted-foreground">
+              <section key={group.title} className="k-explorer__group">
+                <div className="k-explorer__groupHeader">
+                  <h2 className="k-explorer__groupTitle">{group.title}</h2>
+                  <p className="k-explorer__groupCount">
                     {group.items.length}
                     {groupCountSuffix}
                   </p>
                 </div>
 
-                <div className="flex flex-wrap gap-3 md:gap-4">
-                  {group.items.map((item, index) => (
-                    <Card
-                      key={`${group.title}:${index}`}
-                      className="inline-flex items-center gap-0 rounded-2xl border-border py-0 shadow-none transition-colors hover:border-primary/30 hover:bg-accent/30"
+                <div className="k-explorer__items">
+                  {group.items.map((item) => (
+                    <div
+                      key={`${group.title}:${item.kaomoji}`}
+                      className="k-explorer__item"
                     >
-                      <CardContent className="flex items-center gap-2 p-3">
-                        <span
-                          className="font-mono text-base leading-tight whitespace-pre-wrap break-all md:text-lg"
-                          title={item.kaomoji}
-                        >
-                          {item.kaomoji}
-                        </span>
-                        <CopyButton text={item.kaomoji} />
-                      </CardContent>
-                    </Card>
+                      <span className="k-explorer__itemText">{item.kaomoji}</span>
+                      <CopyButton text={item.kaomoji} />
+                    </div>
                   ))}
                 </div>
               </section>
             ))}
           </div>
 
-          <div className="border-t pt-6 text-center text-sm text-muted-foreground">
+          <div className="k-explorer__total">
             {totalPrefix}
             <span className="font-medium text-foreground">{totalCount}</span>
             {totalSuffix}
