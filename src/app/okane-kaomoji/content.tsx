@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import type { KaomojiCollectionGroup, KaomojiFaqProps, KaomojiHeroProps, KaomojiWhatProps, KaomojiWhyProps } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+import { uniq } from "@/features/kaomoji/data/uniq";
+
+export const metadata: Metadata = { title: "お金顔文字一覧（Kaomoji）｜豊かさや喜びを表現をコピペ", description: "お金顔文字をまとめて掲載。", ...withCanonical("/okane-kaomoji") };
+export const okaneKaomojiHeroContent: KaomojiHeroProps = { title: "お金顔文字一覧", kaomoji: "💰(*´▽`*)💰", subtitle: "豊かさや喜びを表現【コピペ簡単】", description: "お金顔文字は、豊かさや喜びを表現するKaomoji。", primaryCta: { href: "#list", label: "顔文字を探す" }, secondaryCta: { href: "/", label: "ホームへ" } };
+export const okaneKaomojiWhatContent: KaomojiWhatProps = { heading: "お金顔文字とは？", intro: "お金顔文字は、豊かさや喜びを表現する表現です。", usageHeading: "使えるシーン", usageItems: ["お祝い", "喜び"], typesHeading: "お金顔文字のタイプ", types: [{ title: "基本", description: "シンプルで使いやすい。", example: "例：💰(*´▽`*)💰" }], featuresHeading: "お金が伝わるパーツ", features: [{ symbol: "💰", title: "お金袋", description: "豊かさの象徴。" }] };
+export const okaneKaomojiWhyContent: KaomojiWhyProps = { heading: "お金顔文字を上手に使うコツ", subheading: "豊かさを表現。", guideHeading: "使い分けガイド", guides: [{ title: "お祝いに", bullets: ["喜びの雰囲気"], recommend: "おすすめ：💰(*´▽`*)💰" }], cultureHeading: "お金の文化", cultureBody: "お金は豊かさの象徴。", cultureCards: [{ title: "豊かさ", description: "喜びの表現。" }], tipsHeading: "組み合わせ例", tips: [{ title: "お金＋メッセージ", body: "喜びを。", example: "例：「💰やったー！💰」" }] };
+export const okaneKaomojiFaqContent: KaomojiFaqProps = { heading: "FAQ", subheading: "お金顔文字。", items: [{ question: "コピー方法は？", answer: "コピーアイコンを押すだけ。" }] };
+export const okaneKaomojiGroups: KaomojiCollectionGroup[] = [{ title: "お金", items: uniq(["💰(*´▽`*)💰", "💵✨💵", "💴💰💴"]).map((kaomoji) => ({ kaomoji, tags: ["お金"] })) }];
+export const okaneKaomojiPlainText: string = uniq(okaneKaomojiGroups.flatMap((group) => group.items.map((item) => item.kaomoji))).join("\n");

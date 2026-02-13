@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import type { KaomojiCollectionGroup, KaomojiFaqProps, KaomojiHeroProps, KaomojiWhatProps, KaomojiWhyProps } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+import { uniq } from "@/features/kaomoji/data/uniq";
+
+export const metadata: Metadata = { title: "野球顔文字一覧（Kaomoji）｜野球の楽しさを表現をコピペ", description: "野球顔文字をまとめて掲載。", ...withCanonical("/yakyuu-kaomoji") };
+export const yakyuuKaomojiHeroContent: KaomojiHeroProps = { title: "野球顔文字一覧", kaomoji: "⚾(*´▽`*)⚾", subtitle: "野球の楽しさを表現【コピペ簡単】", description: "野球顔文字は、野球の楽しさを表現するKaomoji。", primaryCta: { href: "#list", label: "顔文字を探す" }, secondaryCta: { href: "/", label: "ホームへ" } };
+export const yakyuuKaomojiWhatContent: KaomojiWhatProps = { heading: "野球顔文字とは？", intro: "野球顔文字は、野球の楽しさを表現する表現です。", usageHeading: "使えるシーン", usageItems: ["野球観戦", "応援"], typesHeading: "野球顔文字のタイプ", types: [{ title: "基本", description: "シンプルで使いやすい。", example: "例：⚾(*´▽`*)⚾" }], featuresHeading: "野球が伝わるパーツ", features: [{ symbol: "⚾", title: "ボール", description: "野球の象徴。" }] };
+export const yakyuuKaomojiWhyContent: KaomojiWhyProps = { heading: "野球顔文字を上手に使うコツ", subheading: "野球の楽しさを表現。", guideHeading: "使い分けガイド", guides: [{ title: "観戦に", bullets: ["楽しい雰囲気"], recommend: "おすすめ：⚾(*´▽`*)⚾" }], cultureHeading: "野球の文化", cultureBody: "野球は日本の国民的スポーツ。", cultureCards: [{ title: "スポーツ", description: "楽しさの表現。" }], tipsHeading: "組み合わせ例", tips: [{ title: "野球＋メッセージ", body: "楽しさを。", example: "例：「⚾ホームラン！⚾」" }] };
+export const yakyuuKaomojiFaqContent: KaomojiFaqProps = { heading: "FAQ", subheading: "野球顔文字。", items: [{ question: "コピー方法は？", answer: "コピーアイコンを押すだけ。" }] };
+export const yakyuuKaomojiGroups: KaomojiCollectionGroup[] = [{ title: "野球", items: uniq(["⚾(*´▽`*)⚾", "⚾✨⚾", "🏟️⚾🏟️"]).map((kaomoji) => ({ kaomoji, tags: ["野球"] })) }];
+export const yakyuuKaomojiPlainText: string = uniq(yakyuuKaomojiGroups.flatMap((group) => group.items.map((item) => item.kaomoji))).join("\n");

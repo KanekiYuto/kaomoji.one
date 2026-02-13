@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import type { KaomojiCollectionGroup, KaomojiFaqProps, KaomojiHeroProps, KaomojiWhatProps, KaomojiWhyProps } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+import { uniq } from "@/features/kaomoji/data/uniq";
+
+export const metadata: Metadata = { title: "映画顔文字一覧（Kaomoji）｜映画鑑賞の楽しさを表現をコピペ", description: "映画顔文字をまとめて掲載。", ...withCanonical("/eiga-kaomoji") };
+export const eigaKaomojiHeroContent: KaomojiHeroProps = { title: "映画顔文字一覧", kaomoji: "🎬(*´▽`*)🎬", subtitle: "映画鑑賞の楽しさを表現【コピペ簡単】", description: "映画顔文字は、映画鑑賞の楽しさを表現するKaomoji。", primaryCta: { href: "#list", label: "顔文字を探す" }, secondaryCta: { href: "/", label: "ホームへ" } };
+export const eigaKaomojiWhatContent: KaomojiWhatProps = { heading: "映画顔文字とは？", intro: "映画顔文字は、映画鑑賞の楽しさを表現する表現です。", usageHeading: "使えるシーン", usageItems: ["映画鑑賞", "レビュー"], typesHeading: "映画顔文字のタイプ", types: [{ title: "基本", description: "シンプルで使いやすい。", example: "例：🎬(*´▽`*)🎬" }], featuresHeading: "映画が伝わるパーツ", features: [{ symbol: "🎬", title: "カチンコ", description: "映画の象徴。" }] };
+export const eigaKaomojiWhyContent: KaomojiWhyProps = { heading: "映画顔文字を上手に使うコツ", subheading: "映画の楽しさを表現。", guideHeading: "使い分けガイド", guides: [{ title: "鑑賞に", bullets: ["楽しい雰囲気"], recommend: "おすすめ：🎬(*´▽`*)🎬" }], cultureHeading: "映画の文化", cultureBody: "映画は世界共通の娯楽。", cultureCards: [{ title: "娯楽", description: "楽しさの表現。" }], tipsHeading: "組み合わせ例", tips: [{ title: "映画＋メッセージ", body: "楽しさを。", example: "例：「🎬面白かった！🎬」" }] };
+export const eigaKaomojiFaqContent: KaomojiFaqProps = { heading: "FAQ", subheading: "映画顔文字。", items: [{ question: "コピー方法は？", answer: "コピーアイコンを押すだけ。" }] };
+export const eigaKaomojiGroups: KaomojiCollectionGroup[] = [{ title: "映画", items: uniq(["🎬(*´▽`*)🎬", "🎥🍿🎥", "📽️✨📽️"]).map((kaomoji) => ({ kaomoji, tags: ["映画"] })) }];
+export const eigaKaomojiPlainText: string = uniq(eigaKaomojiGroups.flatMap((group) => group.items.map((item) => item.kaomoji))).join("\n");

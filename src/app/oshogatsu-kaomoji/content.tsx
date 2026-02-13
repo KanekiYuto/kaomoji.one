@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import type { KaomojiCollectionGroup, KaomojiFaqProps, KaomojiHeroProps, KaomojiWhatProps, KaomojiWhyProps } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+import { uniq } from "@/features/kaomoji/data/uniq";
+
+export const metadata: Metadata = { title: "お正月顔文字一覧（Kaomoji）｜新年の挨拶をコピペ", description: "お正月顔文字をまとめて掲載。", ...withCanonical("/oshogatsu-kaomoji") };
+export const oshogatsuKaomojiHeroContent: KaomojiHeroProps = { title: "お正月顔文字一覧", kaomoji: "🎍(*´▽`*)🎍", subtitle: "新年の挨拶【コピペ簡単】", description: "お正月顔文字は、新年のお祝いを表現する特別なKaomoji。", primaryCta: { href: "#list", label: "顔文字を探す" }, secondaryCta: { href: "/", label: "ホームへ" } };
+export const oshogatsuKaomojiWhatContent: KaomojiWhatProps = { heading: "お正月顔文字とは？", intro: "新年のお祝い表現。", usageHeading: "使えるシーン", usageItems: ["新年の挨拶", "年賀状"], typesHeading: "タイプ", types: [{ title: "門松系", description: "お正月の象徴。", example: "例：🎍Happy New Year🎍" }], featuresHeading: "特徴", features: [{ symbol: "🎍", title: "門松", description: "新年の飾り。" }] };
+export const oshogatsuKaomojiWhyContent: KaomojiWhyProps = { heading: "使い方", subheading: "新年のお祝いを。", guideHeading: "ガイド", guides: [{ title: "新年に", bullets: ["お祝いの気持ち"], recommend: "おすすめ：🎍Happy New Year🎍" }], cultureHeading: "文化", cultureBody: "お正月は日本の最も大切な年中行事。", cultureCards: [{ title: "新年", description: "一年の始まり。" }], tipsHeading: "例", tips: [{ title: "お正月＋挨拶", body: "新年の挨拶を。", example: "例：🎍Happy New Year🎍 今年もよろしく" }] };
+export const oshogatsuKaomojiFaqContent: KaomojiFaqProps = { heading: "FAQ", subheading: "お正月顔文字。", items: [{ question: "コピー方法は？", answer: "コピーアイコンを押すだけ。" }] };
+export const oshogatsuKaomojiGroups: KaomojiCollectionGroup[] = [{ title: "お正月", items: uniq(["🎍Happy New Year🎍", "🎌新年おめでとう🎌", "✨(*´▽`*)✨"]).map((kaomoji) => ({ kaomoji, tags: ["お正月"] })) }];
+export const oshogatsuKaomojiPlainText: string = uniq(oshogatsuKaomojiGroups.flatMap((group) => group.items.map((item) => item.kaomoji))).join("\n");

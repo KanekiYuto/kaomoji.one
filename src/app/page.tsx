@@ -93,6 +93,11 @@ export default function Home() {
                     <a href="https://mossai.org" title="MossAI Tools">MossAI Tools</a>
                   </TableCell>
                 </TableRow>
+                <TableRow>
+                  <TableCell>
+                    <a href="https://dang.ai/" target="_blank" ><img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Dang.ai" width="150" height="54" /></a>
+                  </TableCell>
+                </TableRow>
               </TableBody>
             </Table>
           </div>

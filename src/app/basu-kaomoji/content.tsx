@@ -1,0 +1,12 @@
+import type { Metadata } from "next";
+import type { KaomojiCollectionGroup, KaomojiFaqProps, KaomojiHeroProps, KaomojiWhatProps, KaomojiWhyProps } from "@/features/kaomoji/types";
+import { withCanonical } from "@/lib/seo";
+import { uniq } from "@/features/kaomoji/data/uniq";
+
+export const metadata: Metadata = { title: "バス顔文字一覧（Kaomoji）｜旅の楽しさを表現をコピペ", description: "バス顔文字をまとめて掲載。", ...withCanonical("/basu-kaomoji") };
+export const basuKaomojiHeroContent: KaomojiHeroProps = { title: "バス顔文字一覧", kaomoji: "🚌(*´▽`*)🚌", subtitle: "旅の楽しさを表現【コピペ簡単】", description: "バス顔文字は、旅の楽しさを表現するKaomoji。", primaryCta: { href: "#list", label: "顔文字を探す" }, secondaryCta: { href: "/", label: "ホームへ" } };
+export const basuKaomojiWhatContent: KaomojiWhatProps = { heading: "バス顔文字とは？", intro: "バス顔文字は、旅の楽しさを表現する表現です。", usageHeading: "使えるシーン", usageItems: ["旅行", "通学"], typesHeading: "バス顔文字のタイプ", types: [{ title: "基本", description: "シンプルで使いやすい。", example: "例：🚌(*´▽`*)🚌" }], featuresHeading: "バスが伝わるパーツ", features: [{ symbol: "🚌", title: "バス", description: "旅の象徴。" }] };
+export const basuKaomojiWhyContent: KaomojiWhyProps = { heading: "バス顔文字を上手に使うコツ", subheading: "旅の楽しさを表現。", guideHeading: "使い分けガイド", guides: [{ title: "旅行に", bullets: ["楽しい雰囲気"], recommend: "おすすめ：🚌(*´▽`*)🚌" }], cultureHeading: "バスの文化", cultureBody: "バスは移動の楽しさを提供。", cultureCards: [{ title: "旅行", description: "楽しさの表現。" }], tipsHeading: "組み合わせ例", tips: [{ title: "バス＋メッセージ", body: "楽しさを。", example: "例：「🚌バス旅行楽しい！🚌」" }] };
+export const basuKaomojiFaqContent: KaomojiFaqProps = { heading: "FAQ", subheading: "バス顔文字。", items: [{ question: "コピー方法は？", answer: "コピーアイコンを押すだけ。" }] };
+export const basuKaomojiGroups: KaomojiCollectionGroup[] = [{ title: "バス", items: uniq(["🚌(*´▽`*)🚌", "🚌✨🚌", "🗺️🚌🗺️"]).map((kaomoji) => ({ kaomoji, tags: ["バス"] })) }];
+export const basuKaomojiPlainText: string = uniq(basuKaomojiGroups.flatMap((group) => group.items.map((item) => item.kaomoji))).join("\n");
