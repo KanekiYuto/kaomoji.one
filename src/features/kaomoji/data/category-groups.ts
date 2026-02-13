@@ -14,7 +14,6 @@ export type KaomojiCategoryGroup = {
 export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
   {
     title: "感情表現",
-    defaultOpen: true,
     items: [
       {
         href: "/cute-kaomoji",
@@ -90,7 +89,6 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
   },
   {
     title: "キャラクター系",
-    defaultOpen: true,
     items: [
       {
         href: "/character-kaomoji",
@@ -376,7 +374,6 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
   },
   {
     title: "スタイル別",
-    defaultOpen: true,
     items: [
       {
         href: "/star-kaomoji",
@@ -430,7 +427,7 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
       {
         href: "/line-kaomoji",
         label: "線/ライン",
-        sample: "＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿",
+        sample: "＿＿＿",
         description:
           "線/ライン顔文字まとめ。基本の区切り線・切り取り線✂・点線・破線・装飾ライン・飾り線までコピペ。",
       },
@@ -522,7 +519,6 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
   },
   {
     title: "シーン",
-    defaultOpen: true,
     items: [
       {
         href: "/aisatsu-kaomoji",

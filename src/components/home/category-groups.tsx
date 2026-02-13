@@ -30,7 +30,15 @@ function normalize(value: string) {
 }
 
 function CategoryGroupSection({ title, icon, items, defaultOpen }: CategoryGroup) {
-  const [open, setOpen] = React.useState(defaultOpen ?? true);
+  // Progressive enhancement: start with open for SSR (SEO), then apply defaultOpen on client
+  const [open, setOpen] = React.useState(true);
+  const [isHydrated, setIsHydrated] = React.useState(false);
+
+  React.useEffect(() => {
+    // After hydration, apply the defaultOpen setting
+    setIsHydrated(true);
+    setOpen(defaultOpen ?? false);
+  }, [defaultOpen]);
 
   return (
     <div className="space-y-4">
@@ -49,6 +57,7 @@ function CategoryGroupSection({ title, icon, items, defaultOpen }: CategoryGroup
             "flex size-8 items-center justify-center rounded-full bg-muted/60 transition-colors duration-300 group-hover:bg-muted",
             open ? "rotate-180" : "rotate-0"
           )}
+          style={!isHydrated ? { transform: 'rotate(180deg)' } : undefined}
         >
           <ChevronDown className="size-5 text-muted-foreground" />
         </div>
