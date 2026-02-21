@@ -587,12 +587,6 @@ export const CATEGORY_GROUPS: KaomojiCategoryGroup[] = [
         description: "行ってきます・行ってくる。出かける時の挨拶顔文字をまとめてコピペ。",
       },
       {
-        href: "/itadakimasu-kaomoji",
-        label: "いただきます",
-        sample: "(๑´ڡ`๑)",
-        description: "いただきます・ごちそうさま。食事の挨拶顔文字をまとめてコピペ。",
-      },
-      {
         href: "/tanjoubi-kaomoji",
         label: "誕生日",
         sample: "🎂(*´▽`*)🎂",
